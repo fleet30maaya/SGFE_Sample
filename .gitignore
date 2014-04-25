@@ -1,21 +1,336 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Ignore thumbnails created by windows
+Thumbs.db
+
+# Ignore files build by Visual Studio
 *.obj
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
-*.out
-*.app
+*.pdb
+*.aps
+*.vcproj.*.user
+*.vcxproj.user
+*.vspscc
+*_i.c
+*.i
+*.icf
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.sbr
+*.sdf
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+ipch/
+*.opensdf
+Generated Files
+AppPackages
+*.hps
+
+# Ignore files build by ndk and eclipse
+armeabi/
+bin/
+obj/
+gen/
+assets/
+local.properties
+
+# Ignore specific winrt files 
+cocos2dx/platform/third_party/winrt/freetype/src
+cocos2dx/platform/third_party/winrt/libpng/lpng142
+cocos2dx/platform/third_party/winrt/libjpeg/jpeg-8b
+cocos2dx/platform/third_party/winrt/libtiff/tiff-4.0.1
+cocos2dx/platform/third_party/winrt/zlib/zlib-1.2.5
+cocos2dx/platform/third_party/wp8/freetype/src
+cocos2dx/platform/third_party/wp8/libpng/lpng142
+cocos2dx/platform/third_party/wp8/libjpeg/jpeg-8b
+cocos2dx/platform/third_party/wp8/libtiff/tiff-4.0.1
+cocos2dx/platform/third_party/wp8/zlib/zlib-1.2.5
+samples/Cpp/HelloCpp/proj.winrt/Assets/Resources/
+samples/Cpp/TestCpp/proj.winrt/Assets/Resources/
+samples/Cpp/HelloCpp/proj.wp8/Assets/Resources/
+samples/Cpp/TestCpp/proj.wp8/Assets/Resources/
+
+# Ignore files built by NaCl
+samples/Cpp/HelloCpp/proj.nacl/Resources/
+samples/Cpp/TestCpp/proj.nacl/Resources/
+samples/Cpp/TestCpp/proj.nacl/out/
+samples/Cpp/SimpleGame/proj.nacl/Resources/
+samples/Lua/HelloLua/proj.nacl/Resources/
+samples/Lua/TestLua/proj.nacl/Resources/
+
+# Ignore python compiled files
+*.pyc
+
+# Ignore files build by airplay and marmalade
+build_*_xcode/
+build_*_vc10/
+
+# Ignore files build by xcode
+*.mode*v*
+*.pbxuser
+*.xcbkptlist
+*.xcscheme
+*.xcworkspacedata
+*.xcuserstate
+xcschememanagement.plist
+build/
+.DS_Store
+._.*
+xcuserdata/
+DerivedData/
+*.xccheckout
+
+# Ignore files built by bada
+.Simulator-Debug/
+.Target-Debug/
+.Target-Release/
+
+# Ignore files built by blackberry
+Simulator/
+Device-Debug/
+Device-Release/
+
+# Ignore appcode project files
+woc/proj.ios/.idea/workspace.xml
+woc/proj.ios/.idea/
+.idea/
+
+# Ignore vim swaps
+*.swp
+
+# Ignore this
+CompileMacros.h
+
+# Ignore config files in javascript bindings generator
+tools/tojs/user.cfg
+# ... userconf.ini generated if running from tools/tojs
+tools/tojs/userconf.ini
+# ... userconf.ini generated if running from tools/jenkins_scripts/mac/android/
+tools/jenkins_scripts/mac/android/userconf.ini
+
+# CTags
+tags
+woc/proj.win32/My Inspector XE Results - woc/My Inspector XE Results - woc.inspxeproj
+woc/proj.win32/My Inspector XE Results - woc/project_read_only.dflginspxe
+woc/proj.win32/My Inspector XE Results - woc/project_read_only.infoinspxe
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/collection.dflginspxe
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/collection.infoinspxe
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/config/analysis_type.cfg
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/config/collection.cfg
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/config/context_values.cfg
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/config/panes3.code_locations_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/config/panes3.dynamic_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/config/runmc.options
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/data.0/5596.cpid
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/config/panes3.filter_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/config/panes3.hier_problems_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/config/panes3.stack_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/config/runmc.options
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/data.0/inspxe-runmc.txt
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/data.0/tc.1.jit
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/data.0/woc_1804.pdr
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/data.0/woc_1804.pdr.db3
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/data.0/woc_1804.pdr_out
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/open.dflginspxe
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/open.infoinspxe
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/r000mi1.inspxe
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/realtime.dflginspxe
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/realtime.infoinspxe
+woc/proj.win32/My Amplifier XE Results - woc/
+woc/proj.win32/My Inspector XE Results - woc/
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/data.0/woc_1804.pdr.ste
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/data.0/woc_1804.pdr_out
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/r000mi1.inspxe
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/source_cache/snippets.data
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/source_cache/temporary_files.index
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/source_cache/temporary_files/cache_2ec032c81ae13bebcab4cdb940560059_preloadmanager.cpp
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/source_cache/temporary_files/cache_4d585fea995605a81eb93112e95dee96_ccparticlesystem.cpp
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/source_cache/temporary_files/cache_6bf09c9e317bd929c50622f76cd8a4a7_assetsmanager.cpp
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/source_cache/temporary_files/cache_9e2122cd4bc223f501ac1a729d3b6e70_translationdirector.cpp
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/source_cache/temporary_files/cache_a1d64cc2106ccf168a043957b2595359_checkupdatelayer.cpp
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/source_cache/temporary_files/cache_aabcba1346d2f04ee6bcab56326f4177_ccfileutils.cpp
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/source_cache/temporary_files/cache_ebe27a56424ebffcb507836fbbf264d5_battlebackgroundlayer.cpp
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/source_cache/temporary_files/cache_f22739670aae5300dcc5a298bab6748f_base64.cpp
+woc/proj.win32/My Inspector XE Results - woc/r000mi1/summary/summary_data.xml
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/config/analysis_type.cfg
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/config/collection.cfg
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/config/context_values.cfg
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/config/panes3.code_locations_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/config/panes3.dynamic_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/config/panes3.filter_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/config/panes3.hier_problems_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/config/panes3.stack_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/config/runmc.options
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/data.0/inspxe-runmc.txt
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/data.0/tc.1.jit
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/data.0/woc_6152.pdr
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/data.0/woc_6152.pdr.db3
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/data.0/woc_6152.pdr.ste
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/data.0/woc_6152.pdr_out
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/r001mi1.inspxe
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/source_cache/snippets.data
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/source_cache/temporary_files.index
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/source_cache/temporary_files/cache_aabcba1346d2f04ee6bcab56326f4177_ccfileutils.cpp
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/source_cache/temporary_files/cache_f22739670aae5300dcc5a298bab6748f_base64.cpp
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/source_cache/temporary_files/cache_libcocos2d.dll_c7806.inspxeasm
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/source_cache/temporary_files/cache_woc.exe_311cbb.inspxeasm
+woc/proj.win32/My Inspector XE Results - woc/r001mi1/summary/summary_data.xml
+woc/proj.win32/My Inspector XE Results - woc/r002mi1/config/analysis_type.cfg
+woc/proj.win32/My Inspector XE Results - woc/r002mi1/config/collection.cfg
+woc/proj.win32/My Inspector XE Results - woc/r002mi1/config/context_values.cfg
+woc/proj.win32/My Inspector XE Results - woc/r002mi1/config/panes3.code_locations_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r002mi1/config/panes3.dynamic_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r002mi1/config/runmc.options
+woc/proj.win32/My Inspector XE Results - woc/r002mi1/data.0/inspxe-runmc.txt
+woc/proj.win32/My Inspector XE Results - woc/r002mi1/data.0/tc.1.jit
+woc/proj.win32/My Inspector XE Results - woc/r002mi1/data.0/woc_8980.pdr
+woc/proj.win32/My Inspector XE Results - woc/r002mi1/data.0/woc_8980.pdr.db3
+woc/proj.win32/My Inspector XE Results - woc/r002mi1/data.0/woc_8980.pdr.ste
+woc/proj.win32/My Inspector XE Results - woc/r002mi1/data.0/woc_8980.pdr_out
+woc/proj.win32/My Inspector XE Results - woc/r002mi1/inspxe-runmc.txt
+woc/proj.win32/My Inspector XE Results - woc/r002mi1/r002mi1.inspxe
+woc/proj.win32/My Inspector XE Results - woc/r002mi1/source_cache/snippets.data
+woc/proj.win32/My Inspector XE Results - woc/r002mi1/summary/summary_data.xml
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/config/analysis_type.cfg
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/config/collection.cfg
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/config/context_values.cfg
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/config/panes3.code_locations_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/config/panes3.dynamic_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/config/panes3.filter_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/config/panes3.hier_problems_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/config/panes3.stack_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/config/runmc.options
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/data.0/inspxe-runmc.txt
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/data.0/tc.1.jit
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/data.0/woc_2556.pdr
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/data.0/woc_2556.pdr.db3
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/data.0/woc_2556.pdr.ste
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/data.0/woc_2556.pdr_out
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/r003mi1.inspxe
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/source_cache/snippets.data
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/source_cache/temporary_files.index
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/source_cache/temporary_files/cache_3af9ef6b03349954bf4e43caeb8dbf1d_battlebackgroundlayer.cpp
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/source_cache/temporary_files/cache_47f9dfd70d4c329e3e37c325fcb6a961_translationdirector.cpp
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/source_cache/temporary_files/cache_6bf09c9e317bd929c50622f76cd8a4a7_assetsmanager.cpp
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/source_cache/temporary_files/cache_6e9ac09c79132cb455a5feced234afae_preloadmanager.cpp
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/source_cache/temporary_files/cache_aabcba1346d2f04ee6bcab56326f4177_ccfileutils.cpp
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/source_cache/temporary_files/cache_woc.exe_173031.inspxeasm
+woc/proj.win32/My Inspector XE Results - woc/r003mi1/summary/summary_data.xml
+woc/proj.win32/My Inspector XE Results - woc/r004mi1/config/analysis_type.cfg
+woc/proj.win32/My Inspector XE Results - woc/r004mi1/config/collection.cfg
+woc/proj.win32/My Inspector XE Results - woc/r004mi1/config/context_values.cfg
+woc/proj.win32/My Inspector XE Results - woc/r004mi1/config/panes3.code_locations_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r004mi1/config/panes3.dynamic_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r004mi1/config/runmc.options
+woc/proj.win32/My Inspector XE Results - woc/r004mi1/data.0/inspxe-runmc.txt
+woc/proj.win32/My Inspector XE Results - woc/r004mi1/data.0/tc.1.jit
+woc/proj.win32/My Inspector XE Results - woc/r004mi1/data.0/woc_6828.pdr
+woc/proj.win32/My Inspector XE Results - woc/r004mi1/data.0/woc_6828.pdr.db3
+woc/proj.win32/My Inspector XE Results - woc/r004mi1/data.0/woc_6828.pdr.ste
+woc/proj.win32/My Inspector XE Results - woc/r004mi1/data.0/woc_6828.pdr_out
+woc/proj.win32/My Inspector XE Results - woc/r004mi1/inspxe-runmc.txt
+woc/proj.win32/My Inspector XE Results - woc/r004mi1/r004mi1.inspxe
+woc/proj.win32/My Inspector XE Results - woc/r004mi1/source_cache/snippets.data
+woc/proj.win32/My Inspector XE Results - woc/r004mi1/summary/summary_data.xml
+woc/proj.win32/My Inspector XE Results - woc/r005mi3/config/analysis_type.cfg
+woc/proj.win32/My Inspector XE Results - woc/r005mi3/config/collection.cfg
+woc/proj.win32/My Inspector XE Results - woc/r005mi3/config/context_values.cfg
+woc/proj.win32/My Inspector XE Results - woc/r005mi3/config/panes3.code_locations_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r005mi3/config/panes3.dynamic_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r005mi3/config/runmc.options
+woc/proj.win32/My Inspector XE Results - woc/r005mi3/data.0/inspxe-runmc.txt
+woc/proj.win32/My Inspector XE Results - woc/r005mi3/data.0/ipscmds.dat
+woc/proj.win32/My Inspector XE Results - woc/r005mi3/data.0/tc.1.jit
+woc/proj.win32/My Inspector XE Results - woc/r005mi3/data.0/woc_6212.pdr
+woc/proj.win32/My Inspector XE Results - woc/r005mi3/data.0/woc_6212.pdr.db3
+woc/proj.win32/My Inspector XE Results - woc/r005mi3/data.0/woc_6212.pdr.ste
+woc/proj.win32/My Inspector XE Results - woc/r005mi3/data.0/woc_6212.pdr_out
+woc/proj.win32/My Inspector XE Results - woc/r005mi3/inspxe-runmc.txt
+woc/proj.win32/My Inspector XE Results - woc/r005mi3/r005mi3.inspxe
+woc/proj.win32/My Inspector XE Results - woc/r005mi3/source_cache/snippets.data
+woc/proj.win32/My Inspector XE Results - woc/r005mi3/summary/summary_data.xml
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/config/analysis_type.cfg
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/config/collection.cfg
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/config/context_values.cfg
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/config/panes3.code_locations_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/config/panes3.dynamic_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/config/panes3.filter_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/config/panes3.hier_problems_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/config/panes3.stack_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/config/runmc.options
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/data.0/inspxe-runmc.txt
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/data.0/tc.1.jit
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/data.0/woc_6776.pdr
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/data.0/woc_6776.pdr.db3
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/data.0/woc_6776.pdr.ste
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/data.0/woc_6776.pdr_bak
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/inspxe-runmc.txt
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/r006mi3.inspxe
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/snippets.data
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files.index
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_0a03bfab3bea31297523931a46bd0326_xtree
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_0be44e7bf00ec96e540856adc8137205_cccontrolbutton.cpp
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_3af9ef6b03349954bf4e43caeb8dbf1d_battlebackgroundlayer.cpp
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_3cb634b8cd8629e9e01997f1a90ecfb0_ccimage.cpp
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_43d10bca41a2734f8c7fa2ac398cc9f7_ccimagecommon_cpp.h
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_47f9dfd70d4c329e3e37c325fcb6a961_translationdirector.cpp
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_4d585fea995605a81eb93112e95dee96_ccparticlesystem.cpp
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_511a528e30e1413ebb75c4c426156894_cgamechatroomlayer.cpp
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_540129b8236ddd348aebac4764cfd35d_map
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_62ac69596ec5af74b50dedeabf1bb1aa_ccnotificationcenter.cpp
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_68251f0cda240135c63b1c362b1ace82_cceglview.cpp
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_6b5571ab9268521d727eafc4e2899924_cccarray.cpp
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_aabcba1346d2f04ee6bcab56326f4177_ccfileutils.cpp
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_b42e3669c6581e8c54597f0a6b756d96_ccglprogram.cpp
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_b7d572cedad0d8c374c2ff3e55ec2e08_cceditbox.cpp
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_cc4d222c1717d351052e1ff5a0b4ad3f_memory.c
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_cf292e7935ca28bba3d3d2b12656aeed_homedatamanager.cpp
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_d5a58aca94de3b3f36b195f2476f0d21_newtableview.cpp
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_e221fc25d55e31b6ad1717437a7acab4_xmemory0
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_e4ce1ba37c6fe3d46b8fbb972fa4ae8f_homecard.cpp
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_ecf3938786b3f88d55cf32b37387de12_cccontrol.cpp
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_ee4fba873c4204518da28690154f0d27_inittime.c
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_f22739670aae5300dcc5a298bab6748f_base64.cpp
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_f31201bf26f4bf33dc2c4a495bb4667b_checkupdatelayer.cpp
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_f8bebcafca44538694f3e56a62448fc0_searchalgorithms.cpp
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_fdbc13d0f9d7bd38d2ea5591b169b7c5_ccactioncatmullrom.cpp
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_fe35c906ae36dc3a0e4578dc49cab8ac_protocol.c
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/source_cache/temporary_files/cache_sechost.dll_9e3e.inspxeasm
+woc/proj.win32/My Inspector XE Results - woc/r006mi3/summary/summary_data.xml
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/config/analysis_type.cfg
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/config/collection.cfg
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/config/context_values.cfg
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/config/panes3.code_locations_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/config/panes3.dynamic_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/config/panes3.filter_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/config/panes3.hier_problems_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/config/panes3.stack_pane.xml
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/config/runmc.options
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/data.0/inspxe-runmc.txt
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/data.0/tc.1.jit
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/data.0/woc_8708.pdr
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/data.0/woc_8708.pdr.db3
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/data.0/woc_8708.pdr.ste
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/data.0/woc_8708.pdr_out
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/r007mi1.inspxe
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/source_cache/snippets.data
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/source_cache/temporary_files.index
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/source_cache/temporary_files/cache_3af9ef6b03349954bf4e43caeb8dbf1d_battlebackgroundlayer.cpp
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/source_cache/temporary_files/cache_47f9dfd70d4c329e3e37c325fcb6a961_translationdirector.cpp
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/source_cache/temporary_files/cache_4d585fea995605a81eb93112e95dee96_ccparticlesystem.cpp
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/source_cache/temporary_files/cache_6bf09c9e317bd929c50622f76cd8a4a7_assetsmanager.cpp
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/source_cache/temporary_files/cache_6e9ac09c79132cb455a5feced234afae_preloadmanager.cpp
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/source_cache/temporary_files/cache_aabcba1346d2f04ee6bcab56326f4177_ccfileutils.cpp
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/source_cache/temporary_files/cache_f22739670aae5300dcc5a298bab6748f_base64.cpp
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/source_cache/temporary_files/cache_f31201bf26f4bf33dc2c4a495bb4667b_checkupdatelayer.cpp
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/source_cache/temporary_files/cache_woc.exe_bbc0f.inspxeasm
+woc/proj.win32/My Inspector XE Results - woc/r007mi1/summary/summary_data.xml
