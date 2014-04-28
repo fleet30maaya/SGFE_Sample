@@ -2,5 +2,6 @@
 #define _TESTS_H_
 
 #include "Homework_1/HomeworkScene_1.h"
+#include "Experiment_1/Experiment_1.h"
 
 #endif
