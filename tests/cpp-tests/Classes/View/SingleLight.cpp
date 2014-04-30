@@ -65,35 +65,35 @@ bool SingleLight::init()
 
 void SingleLight::turnOn(SingleLightColor color)
 {
-    if(color == SingleLightColor::SL_OFF)
+    if(color == SingleLightColor::OFF)
     {
         turnOff();
         return;
     }
     
     switch (color) {
-        case SingleLightColor::SL_OFF:
+        case SingleLightColor::OFF:
             turnOff();
             break;
-        case SingleLightColor::SL_RED:
+        case SingleLightColor::RED:
             turnOnOneColor( (int)SingleLightTag::SL_TAG_RED);
             turnOffOneColor((int)SingleLightTag::SL_TAG_GREEN);
             turnOffOneColor((int)SingleLightTag::SL_TAG_YELLOW);
             turnOffOneColor((int)SingleLightTag::SL_TAG_BLUE);
             break;
-        case SingleLightColor::SL_GREEN:
+        case SingleLightColor::GREEN:
             turnOffOneColor((int)SingleLightTag::SL_TAG_RED);
             turnOnOneColor( (int)SingleLightTag::SL_TAG_GREEN);
             turnOffOneColor((int)SingleLightTag::SL_TAG_YELLOW);
             turnOffOneColor((int)SingleLightTag::SL_TAG_BLUE);
             break;
-        case SingleLightColor::SL_YELLOW:
+        case SingleLightColor::YELLOW:
             turnOffOneColor((int)SingleLightTag::SL_TAG_RED);
             turnOffOneColor((int)SingleLightTag::SL_TAG_GREEN);
             turnOnOneColor( (int)SingleLightTag::SL_TAG_YELLOW);
             turnOffOneColor((int)SingleLightTag::SL_TAG_BLUE);
             break;
-        case SingleLightColor::SL_BLUE:
+        case SingleLightColor::BLUE:
             turnOffOneColor((int)SingleLightTag::SL_TAG_RED);
             turnOffOneColor((int)SingleLightTag::SL_TAG_GREEN);
             turnOffOneColor((int)SingleLightTag::SL_TAG_YELLOW);
@@ -115,7 +115,7 @@ void SingleLight::turnOff()
 
 void SingleLight::turnOnOneColor(int tag)
 {
-    if(tag == (int)SingleLightColor::SL_OFF)
+    if(tag == (int)SingleLightColor::OFF)
         return;
     
     Node* node = this->getChildByTag(tag);
@@ -131,7 +131,7 @@ void SingleLight::turnOnOneColor(int tag)
 
 void SingleLight::turnOffOneColor(int tag)
 {
-    if(tag == (int)SingleLightColor::SL_OFF)
+    if(tag == (int)SingleLightColor::OFF)
         return;
     
     Node* node = this->getChildByTag(tag);

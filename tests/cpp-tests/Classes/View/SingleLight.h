@@ -13,11 +13,11 @@
 #include "extensions/cocos-ext.h"
 
 enum class SingleLightColor {
-    SL_OFF,
-    SL_RED,
-    SL_GREEN,
-    SL_YELLOW,
-    SL_BLUE,
+    OFF,
+    RED,
+    GREEN,
+    YELLOW,
+    BLUE,
 };
 
 class SingleLight : public cocos2d::Node

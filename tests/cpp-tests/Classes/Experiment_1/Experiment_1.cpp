@@ -134,6 +134,14 @@ void PadExerciseLayer::touchInsideAction_1(Ref *sender, cocos2d::extension::Cont
 {
     log("Button 1");
     // Add code here
+    m_board->turnOffAll();
+    for(int i = 3; i <= 8; i++)
+    {
+        m_board->turnOn(i+0, i, SingleLightColor::RED);
+        m_board->turnOn(i+1, i, SingleLightColor::GREEN);
+        m_board->turnOn(i+2, i, SingleLightColor::YELLOW);
+        m_board->turnOn(i+3, i, SingleLightColor::BLUE);
+    }
 }
 
 void PadExerciseLayer::touchInsideAction_2(Ref *sender, cocos2d::extension::Control::EventType controlEvent)
