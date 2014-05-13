@@ -10,6 +10,12 @@
     <Filter Include="Classes\Homework_1">
       <UniqueIdentifier>{225c055c-d53d-497a-90db-41c5a9eea97a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Experiment_1">
+      <UniqueIdentifier>{8ee0ae0e-8fee-4233-9198-d4f4eff7baac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\View">
+      <UniqueIdentifier>{4f18eb23-62b6-415a-9a48-edd635e68664}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -32,6 +38,15 @@
     </ClCompile>
     <ClCompile Include="..\Classes\Homework_1\HomeworkScene_1.cpp">
       <Filter>Classes\Homework_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Experiment_1\Experiment_1.cpp">
+      <Filter>Classes\Experiment_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\View\LightBoard.cpp">
+      <Filter>Classes\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\View\SingleLight.cpp">
+      <Filter>Classes\View</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +76,15 @@
     </ClInclude>
     <ClInclude Include="..\Classes\Homework_1\HomeworkScene_1.h">
       <Filter>Classes\Homework_1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Experiment_1\Experiment_1.h">
+      <Filter>Classes\Experiment_1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\View\SingleLight.h">
+      <Filter>Classes\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\View\LightBoard.h">
+      <Filter>Classes\View</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

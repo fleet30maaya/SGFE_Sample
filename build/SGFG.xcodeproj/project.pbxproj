@@ -46,6 +46,44 @@
 		000F36E1190A4CB9000245A3 /* HomeworkScene_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 000F36DA190A4CB9000245A3 /* HomeworkScene_1.cpp */; };
 		000F36E2190A4CB9000245A3 /* HomeworkScene_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 000F36DA190A4CB9000245A3 /* HomeworkScene_1.cpp */; };
 		000F36E3190A4CB9000245A3 /* HomeworkScene_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 000F36DA190A4CB9000245A3 /* HomeworkScene_1.cpp */; };
+		00AF4E311921312400342DFD /* Exercise_2_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AF4E2F1921312400342DFD /* Exercise_2_2.cpp */; };
+		00AF4E321921312400342DFD /* Exercise_2_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AF4E2F1921312400342DFD /* Exercise_2_2.cpp */; };
+		00AF4E37192137AA00342DFD /* Exercise_2_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AF4E35192137A900342DFD /* Exercise_2_3.cpp */; };
+		00AF4E38192137AA00342DFD /* Exercise_2_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AF4E35192137A900342DFD /* Exercise_2_3.cpp */; };
+		00B360371921C7CE004D750A /* Exercise_2_4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B360351921C7CE004D750A /* Exercise_2_4.cpp */; };
+		00B360381921C7CE004D750A /* Exercise_2_4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B360351921C7CE004D750A /* Exercise_2_4.cpp */; };
+		00B4A5A1190E5D32005B3EEA /* SingleLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B4A59F190E5D32005B3EEA /* SingleLight.cpp */; };
+		00B4A5A2190E5D32005B3EEA /* SingleLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B4A59F190E5D32005B3EEA /* SingleLight.cpp */; };
+		00B4A5A3190E5D32005B3EEA /* SingleLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B4A59F190E5D32005B3EEA /* SingleLight.cpp */; };
+		00B4A5A4190E5D32005B3EEA /* SingleLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B4A59F190E5D32005B3EEA /* SingleLight.cpp */; };
+		00B4A5A5190E5D32005B3EEA /* SingleLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B4A59F190E5D32005B3EEA /* SingleLight.cpp */; };
+		00B4A5A6190E5D32005B3EEA /* SingleLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B4A59F190E5D32005B3EEA /* SingleLight.cpp */; };
+		00B4A5A7190E5D32005B3EEA /* SingleLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B4A59F190E5D32005B3EEA /* SingleLight.cpp */; };
+		00B4A5A8190E5D32005B3EEA /* SingleLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B4A59F190E5D32005B3EEA /* SingleLight.cpp */; };
+		00B4A5AC190E5D86005B3EEA /* LightBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B4A5AA190E5D86005B3EEA /* LightBoard.cpp */; };
+		00B4A5AD190E5D86005B3EEA /* LightBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B4A5AA190E5D86005B3EEA /* LightBoard.cpp */; };
+		00B4A5AE190E5D86005B3EEA /* LightBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B4A5AA190E5D86005B3EEA /* LightBoard.cpp */; };
+		00B4A5AF190E5D86005B3EEA /* LightBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B4A5AA190E5D86005B3EEA /* LightBoard.cpp */; };
+		00B4A5B0190E5D86005B3EEA /* LightBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B4A5AA190E5D86005B3EEA /* LightBoard.cpp */; };
+		00B4A5B1190E5D86005B3EEA /* LightBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B4A5AA190E5D86005B3EEA /* LightBoard.cpp */; };
+		00B4A5B2190E5D86005B3EEA /* LightBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B4A5AA190E5D86005B3EEA /* LightBoard.cpp */; };
+		00B4A5B3190E5D86005B3EEA /* LightBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B4A5AA190E5D86005B3EEA /* LightBoard.cpp */; };
+		00BBBFBE190EBC580071E0C8 /* Experiment_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00BBBFBC190EBC580071E0C8 /* Experiment_1.cpp */; };
+		00BBBFBF190EBC580071E0C8 /* Experiment_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00BBBFBC190EBC580071E0C8 /* Experiment_1.cpp */; };
+		00C02589190DD28500A7D3D4 /* pad in Resources */ = {isa = PBXBuildFile; fileRef = 00C02588190DD28500A7D3D4 /* pad */; };
+		00C0258A190DD28500A7D3D4 /* pad in Resources */ = {isa = PBXBuildFile; fileRef = 00C02588190DD28500A7D3D4 /* pad */; };
+		00C0258B190DD28500A7D3D4 /* pad in Resources */ = {isa = PBXBuildFile; fileRef = 00C02588190DD28500A7D3D4 /* pad */; };
+		00C0258C190DD28500A7D3D4 /* pad in Resources */ = {isa = PBXBuildFile; fileRef = 00C02588190DD28500A7D3D4 /* pad */; };
+		00C0258D190DD28500A7D3D4 /* pad in Resources */ = {isa = PBXBuildFile; fileRef = 00C02588190DD28500A7D3D4 /* pad */; };
+		00C0258E190DD28500A7D3D4 /* pad in Resources */ = {isa = PBXBuildFile; fileRef = 00C02588190DD28500A7D3D4 /* pad */; };
+		00C0258F190DD28500A7D3D4 /* pad in Resources */ = {isa = PBXBuildFile; fileRef = 00C02588190DD28500A7D3D4 /* pad */; };
+		00C02590190DD28500A7D3D4 /* pad in Resources */ = {isa = PBXBuildFile; fileRef = 00C02588190DD28500A7D3D4 /* pad */; };
+		00DD190A1920DE7200FF895A /* ExerciseScene_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00DD19081920DE7200FF895A /* ExerciseScene_2.cpp */; };
+		00DD190B1920DE7200FF895A /* ExerciseScene_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00DD19081920DE7200FF895A /* ExerciseScene_2.cpp */; };
+		00DD190F1920E00100FF895A /* exercises in Resources */ = {isa = PBXBuildFile; fileRef = 00DD190E1920E00100FF895A /* exercises */; };
+		00DD19101920E00100FF895A /* exercises in Resources */ = {isa = PBXBuildFile; fileRef = 00DD190E1920E00100FF895A /* exercises */; };
+		00DD19151920E83700FF895A /* Exercise_2_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00DD19131920E83700FF895A /* Exercise_2_1.cpp */; };
+		00DD19161920E83700FF895A /* Exercise_2_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00DD19131920E83700FF895A /* Exercise_2_1.cpp */; };
 		1503FAB318DA8B6C00F6518C /* ftp.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1503FAA918DA8B6C00F6518C /* ftp.lua */; };
 		1503FAB418DA8B6C00F6518C /* ftp.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1503FAA918DA8B6C00F6518C /* ftp.lua */; };
 		1503FAB518DA8B6C00F6518C /* headers.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1503FAAA18DA8B6C00F6518C /* headers.lua */; };
@@ -731,6 +769,24 @@
 /* Begin PBXFileReference section */
 		000F36DA190A4CB9000245A3 /* HomeworkScene_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HomeworkScene_1.cpp; path = Homework_1/HomeworkScene_1.cpp; sourceTree = "<group>"; };
 		000F36DB190A4CB9000245A3 /* HomeworkScene_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeworkScene_1.h; path = Homework_1/HomeworkScene_1.h; sourceTree = "<group>"; };
+		00AF4E2F1921312400342DFD /* Exercise_2_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exercise_2_2.cpp; sourceTree = "<group>"; };
+		00AF4E301921312400342DFD /* Exercise_2_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise_2_2.h; sourceTree = "<group>"; };
+		00AF4E35192137A900342DFD /* Exercise_2_3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exercise_2_3.cpp; sourceTree = "<group>"; };
+		00AF4E36192137A900342DFD /* Exercise_2_3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise_2_3.h; sourceTree = "<group>"; };
+		00B360351921C7CE004D750A /* Exercise_2_4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exercise_2_4.cpp; sourceTree = "<group>"; };
+		00B360361921C7CE004D750A /* Exercise_2_4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise_2_4.h; sourceTree = "<group>"; };
+		00B4A59F190E5D32005B3EEA /* SingleLight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SingleLight.cpp; path = View/SingleLight.cpp; sourceTree = "<group>"; };
+		00B4A5A0190E5D32005B3EEA /* SingleLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SingleLight.h; path = View/SingleLight.h; sourceTree = "<group>"; };
+		00B4A5AA190E5D86005B3EEA /* LightBoard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LightBoard.cpp; path = View/LightBoard.cpp; sourceTree = "<group>"; };
+		00B4A5AB190E5D86005B3EEA /* LightBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LightBoard.h; path = View/LightBoard.h; sourceTree = "<group>"; };
+		00BBBFBC190EBC580071E0C8 /* Experiment_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Experiment_1.cpp; path = Experiment_1/Experiment_1.cpp; sourceTree = "<group>"; };
+		00BBBFBD190EBC580071E0C8 /* Experiment_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Experiment_1.h; path = Experiment_1/Experiment_1.h; sourceTree = "<group>"; };
+		00C02588190DD28500A7D3D4 /* pad */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pad; path = "../tests/cpp-tests/Resources/pad"; sourceTree = "<group>"; };
+		00DD19081920DE7200FF895A /* ExerciseScene_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExerciseScene_2.cpp; sourceTree = "<group>"; };
+		00DD19091920DE7200FF895A /* ExerciseScene_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseScene_2.h; sourceTree = "<group>"; };
+		00DD190E1920E00100FF895A /* exercises */ = {isa = PBXFileReference; lastKnownFileType = folder; name = exercises; path = "../tests/cpp-tests/Resources/exercises"; sourceTree = "<group>"; };
+		00DD19131920E83700FF895A /* Exercise_2_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exercise_2_1.cpp; sourceTree = "<group>"; };
+		00DD19141920E83700FF895A /* Exercise_2_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise_2_1.h; sourceTree = "<group>"; };
 		1503FAA918DA8B6C00F6518C /* ftp.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ftp.lua; path = ../external/lua/luasocket/ftp.lua; sourceTree = "<group>"; };
 		1503FAAA18DA8B6C00F6518C /* headers.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = headers.lua; path = ../external/lua/luasocket/headers.lua; sourceTree = "<group>"; };
 		1503FAAB18DA8B6C00F6518C /* http.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = http.lua; path = ../external/lua/luasocket/http.lua; sourceTree = "<group>"; };
@@ -1035,6 +1091,43 @@
 			name = Homework_1;
 			sourceTree = "<group>";
 		};
+		00B4A5A9190E5D38005B3EEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00B4A5AA190E5D86005B3EEA /* LightBoard.cpp */,
+				00B4A5AB190E5D86005B3EEA /* LightBoard.h */,
+				00B4A59F190E5D32005B3EEA /* SingleLight.cpp */,
+				00B4A5A0190E5D32005B3EEA /* SingleLight.h */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		00C02587190D7E6800A7D3D4 /* Experiment_1 */ = {
+			isa = PBXGroup;
+			children = (
+				00BBBFBC190EBC580071E0C8 /* Experiment_1.cpp */,
+				00BBBFBD190EBC580071E0C8 /* Experiment_1.h */,
+			);
+			name = Experiment_1;
+			sourceTree = "<group>";
+		};
+		00DD19071920DE7200FF895A /* Exercise_2 */ = {
+			isa = PBXGroup;
+			children = (
+				00DD19131920E83700FF895A /* Exercise_2_1.cpp */,
+				00DD19141920E83700FF895A /* Exercise_2_1.h */,
+				00AF4E2F1921312400342DFD /* Exercise_2_2.cpp */,
+				00AF4E301921312400342DFD /* Exercise_2_2.h */,
+				00AF4E35192137A900342DFD /* Exercise_2_3.cpp */,
+				00AF4E36192137A900342DFD /* Exercise_2_3.h */,
+				00B360351921C7CE004D750A /* Exercise_2_4.cpp */,
+				00B360361921C7CE004D750A /* Exercise_2_4.h */,
+				00DD19081920DE7200FF895A /* ExerciseScene_2.cpp */,
+				00DD19091920DE7200FF895A /* ExerciseScene_2.h */,
+			);
+			path = Exercise_2;
+			sourceTree = "<group>";
+		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -1119,6 +1212,9 @@
 			isa = PBXGroup;
 			children = (
 				000F36E4190A4CBD000245A3 /* Homework_1 */,
+				00C02587190D7E6800A7D3D4 /* Experiment_1 */,
+				00DD19071920DE7200FF895A /* Exercise_2 */,
+				00B4A5A9190E5D38005B3EEA /* View */,
 				1AC3593418CECF0A00F37B72 /* AppDelegate.cpp */,
 				1AC3593518CECF0A00F37B72 /* AppDelegate.h */,
 				1AC3593618CECF0A00F37B72 /* BaseTest.cpp */,
@@ -1191,8 +1287,10 @@
 			isa = PBXGroup;
 			children = (
 				1AC35CB418CED84500F37B72 /* configs */,
+				00DD190E1920E00100FF895A /* exercises */,
 				1AC35CB818CED84500F37B72 /* extensions */,
 				1AC35CBA18CED84500F37B72 /* fonts */,
+				00C02588190DD28500A7D3D4 /* pad */,
 				1AC35CB918CED84500F37B72 /* fileLookup.plist */,
 				1AC35CBB18CED84500F37B72 /* fps_images.png */,
 				1AC35CB218CED84500F37B72 /* commonly_used_words.txt */,
@@ -1465,7 +1563,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "cocos2d_tests" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SGFG" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -1597,6 +1695,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C0258A190DD28500A7D3D4 /* pad in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1609,6 +1708,7 @@
 				1503FABD18DA8B6C00F6518C /* mime.lua in Resources */,
 				1A0EE56F18CDFBBE004CD58F /* CCBReaderLoad.lua in Resources */,
 				1A0EE57018CDFBBE004CD58F /* Cocos2d.lua in Resources */,
+				00C0258C190DD28500A7D3D4 /* pad in Resources */,
 				1A0EE57B18CDFBBE004CD58F /* luaj.lua in Resources */,
 				1A0EE57918CDFBBE004CD58F /* GuiConstants.lua in Resources */,
 				1503FAC518DA8B6C00F6518C /* url.lua in Resources */,
@@ -1639,6 +1739,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C0258E190DD28500A7D3D4 /* pad in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1651,6 +1752,7 @@
 				1A0EE55D18CDFBBD004CD58F /* CCBReaderLoad.lua in Resources */,
 				1503FAC018DA8B6C00F6518C /* smtp.lua in Resources */,
 				1A0EE56018CDFBBD004CD58F /* CocoStudio.lua in Resources */,
+				00C02590190DD28500A7D3D4 /* pad in Resources */,
 				1A0EE56318CDFBBD004CD58F /* DeprecatedEnum.lua in Resources */,
 				1503FAB818DA8B6C00F6518C /* http.lua in Resources */,
 				1503FAC618DA8B6C00F6518C /* url.lua in Resources */,
@@ -1690,6 +1792,7 @@
 				1AC35DBC18CEE65100F37B72 /* configs in Resources */,
 				1ABCA38818CD9E180087CE3A /* DeprecatedOpenglEnum.lua in Resources */,
 				15C90B4B18E66C2F00D69802 /* url.lua in Resources */,
+				00C0258B190DD28500A7D3D4 /* pad in Resources */,
 				1AC35DE718CEE65900F37B72 /* commonly_used_words.txt in Resources */,
 				1ABCA37A18CD9E180087CE3A /* CCBReaderLoad.lua in Resources */,
 				15C90B4918E66C2A00D69802 /* tp.lua in Resources */,
@@ -1731,6 +1834,7 @@
 				15C90B3E18E66BF200D69802 /* http.lua in Resources */,
 				1ABCA37F18CD9E180087CE3A /* Cocos2dConstants.lua in Resources */,
 				1AC35DF118CEE65B00F37B72 /* fileLookup.plist in Resources */,
+				00C0258F190DD28500A7D3D4 /* pad in Resources */,
 				1ABCA39518CD9E180087CE3A /* luaoc.lua in Resources */,
 				15C90B4218E66C1200D69802 /* mbox.lua in Resources */,
 				15C90B3718E66BE000D69802 /* ftp.lua in Resources */,
@@ -1767,11 +1871,13 @@
 				1AC35CDC18CED84500F37B72 /* commonly_used_words.txt in Resources */,
 				1AC35CE818CED84500F37B72 /* extensions in Resources */,
 				1AC35CA518CECF1E00F37B72 /* Icon.icns in Resources */,
+				00C02589190DD28500A7D3D4 /* pad in Resources */,
 				1AC35CEC18CED84500F37B72 /* fonts in Resources */,
 				1AC35CEA18CED84500F37B72 /* fileLookup.plist in Resources */,
 				1AC35CA318CECF1E00F37B72 /* InfoPlist.strings in Resources */,
 				1AC35CEE18CED84500F37B72 /* fps_images.png in Resources */,
 				1AC35CA418CECF1E00F37B72 /* MainMenu.xib in Resources */,
+				00DD190F1920E00100FF895A /* exercises in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1783,9 +1889,11 @@
 				1AC35C9218CECF1400F37B72 /* Icon-50.png in Resources */,
 				1AC35C9618CECF1400F37B72 /* Icon-76.png in Resources */,
 				1AC35C8A18CECF1400F37B72 /* Default@2x.png in Resources */,
+				00DD19101920E00100FF895A /* exercises in Resources */,
 				1AC35C9018CECF1400F37B72 /* Icon-29.png in Resources */,
 				1AC35C8818CECF1400F37B72 /* Default-568h@2x.png in Resources */,
 				1AC35CE118CED84500F37B72 /* configs in Resources */,
+				00C0258D190DD28500A7D3D4 /* pad in Resources */,
 				1AC35CE918CED84500F37B72 /* extensions in Resources */,
 				1AC35C9518CECF1400F37B72 /* Icon-72.png in Resources */,
 				1AC35C9118CECF1400F37B72 /* Icon-40.png in Resources */,
@@ -1812,6 +1920,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				000F36DD190A4CB9000245A3 /* HomeworkScene_1.cpp in Sources */,
+				00B4A5A2190E5D32005B3EEA /* SingleLight.cpp in Sources */,
+				00B4A5AD190E5D86005B3EEA /* LightBoard.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1820,6 +1930,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				000F36DF190A4CB9000245A3 /* HomeworkScene_1.cpp in Sources */,
+				00B4A5A4190E5D32005B3EEA /* SingleLight.cpp in Sources */,
+				00B4A5AF190E5D86005B3EEA /* LightBoard.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1828,6 +1940,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				000F36E1190A4CB9000245A3 /* HomeworkScene_1.cpp in Sources */,
+				00B4A5A6190E5D32005B3EEA /* SingleLight.cpp in Sources */,
+				00B4A5B1190E5D86005B3EEA /* LightBoard.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1836,6 +1950,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				000F36E3190A4CB9000245A3 /* HomeworkScene_1.cpp in Sources */,
+				00B4A5A8190E5D32005B3EEA /* SingleLight.cpp in Sources */,
+				00B4A5B3190E5D86005B3EEA /* LightBoard.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1844,6 +1960,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				000F36DE190A4CB9000245A3 /* HomeworkScene_1.cpp in Sources */,
+				00B4A5A3190E5D32005B3EEA /* SingleLight.cpp in Sources */,
+				00B4A5AE190E5D86005B3EEA /* LightBoard.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1852,6 +1970,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				000F36E2190A4CB9000245A3 /* HomeworkScene_1.cpp in Sources */,
+				00B4A5A7190E5D32005B3EEA /* SingleLight.cpp in Sources */,
+				00B4A5B2190E5D86005B3EEA /* LightBoard.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1860,11 +1980,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AC35B2918CECF0C00F37B72 /* AppDelegate.cpp in Sources */,
+				00B4A5AC190E5D86005B3EEA /* LightBoard.cpp in Sources */,
 				1AC35C5118CECF0C00F37B72 /* testBasic.cpp in Sources */,
+				00DD190A1920DE7200FF895A /* ExerciseScene_2.cpp in Sources */,
+				00AF4E37192137AA00342DFD /* Exercise_2_3.cpp in Sources */,
 				1AC35B2B18CECF0C00F37B72 /* BaseTest.cpp in Sources */,
 				1AC35C6918CECF0C00F37B72 /* VisibleRect.cpp in Sources */,
+				00B360371921C7CE004D750A /* Exercise_2_4.cpp in Sources */,
 				1AC35B5918CECF0C00F37B72 /* controller.cpp in Sources */,
+				00B4A5A1190E5D32005B3EEA /* SingleLight.cpp in Sources */,
+				00AF4E311921312400342DFD /* Exercise_2_2.cpp in Sources */,
+				00BBBFBE190EBC580071E0C8 /* Experiment_1.cpp in Sources */,
 				000F36DC190A4CB9000245A3 /* HomeworkScene_1.cpp in Sources */,
+				00DD19151920E83700FF895A /* Exercise_2_1.cpp in Sources */,
 				1AC35CA618CECF1E00F37B72 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1874,14 +2002,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				000F36E0190A4CB9000245A3 /* HomeworkScene_1.cpp in Sources */,
+				00B4A5A5190E5D32005B3EEA /* SingleLight.cpp in Sources */,
+				00DD19161920E83700FF895A /* Exercise_2_1.cpp in Sources */,
 				1AC35C8718CECF1400F37B72 /* testsAppDelegate.mm in Sources */,
+				00BBBFBF190EBC580071E0C8 /* Experiment_1.cpp in Sources */,
 				1AC35B2A18CECF0C00F37B72 /* AppDelegate.cpp in Sources */,
+				00B360381921C7CE004D750A /* Exercise_2_4.cpp in Sources */,
 				1AC35C5218CECF0C00F37B72 /* testBasic.cpp in Sources */,
+				00AF4E321921312400342DFD /* Exercise_2_2.cpp in Sources */,
 				1AC35B2C18CECF0C00F37B72 /* BaseTest.cpp in Sources */,
 				1AC35C9818CECF1400F37B72 /* main.m in Sources */,
+				00DD190B1920DE7200FF895A /* ExerciseScene_2.cpp in Sources */,
 				1AC35C8618CECF1400F37B72 /* RootViewController.mm in Sources */,
+				00AF4E38192137AA00342DFD /* Exercise_2_3.cpp in Sources */,
 				1AC35C6A18CECF0C00F37B72 /* VisibleRect.cpp in Sources */,
 				1AC35B5A18CECF0C00F37B72 /* controller.cpp in Sources */,
+				00B4A5B0190E5D86005B3EEA /* LightBoard.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2568,7 +2704,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "cocos2d_tests" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SGFG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
