@@ -16,6 +16,9 @@
     <Filter Include="Classes\View">
       <UniqueIdentifier>{4f18eb23-62b6-415a-9a48-edd635e68664}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Exercise_2">
+      <UniqueIdentifier>{b5b85bef-7abb-4daa-abc6-8a920611a112}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -47,6 +50,21 @@
     </ClCompile>
     <ClCompile Include="..\Classes\View\SingleLight.cpp">
       <Filter>Classes\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Exercise_2\Exercise_2_1.cpp">
+      <Filter>Classes\Exercise_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Exercise_2\Exercise_2_2.cpp">
+      <Filter>Classes\Exercise_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Exercise_2\Exercise_2_3.cpp">
+      <Filter>Classes\Exercise_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Exercise_2\Exercise_2_4.cpp">
+      <Filter>Classes\Exercise_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Exercise_2\ExerciseScene_2.cpp">
+      <Filter>Classes\Exercise_2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +103,21 @@
     </ClInclude>
     <ClInclude Include="..\Classes\View\LightBoard.h">
       <Filter>Classes\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Exercise_2\Exercise_2_1.h">
+      <Filter>Classes\Exercise_2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Exercise_2\Exercise_2_2.h">
+      <Filter>Classes\Exercise_2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Exercise_2\Exercise_2_3.h">
+      <Filter>Classes\Exercise_2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Exercise_2\Exercise_2_4.h">
+      <Filter>Classes\Exercise_2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Exercise_2\ExerciseScene_2.h">
+      <Filter>Classes\Exercise_2</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
