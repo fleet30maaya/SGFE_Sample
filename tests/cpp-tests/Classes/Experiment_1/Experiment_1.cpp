@@ -148,24 +148,61 @@ void PadExerciseLayer::touchInsideAction_2(Ref *sender, cocos2d::extension::Cont
 {
     log("Button 2");
     // Add code here
+    m_board->turnOffAll();
+    for(int j = 3; j < 9; j++)
+    {
+        for(int i = 3; i < 13; i++)
+        {
+            m_board->turnOn(i, j, SingleLightColor::RED);
+        }
+    }
 }
 
 void PadExerciseLayer::touchInsideAction_3(Ref *sender, cocos2d::extension::Control::EventType controlEvent)
 {
     log("Button 3");
     // Add code here
+    m_board->turnOffAll();
+    for(int i = 3; i < 13; i++)
+    {
+        m_board->turnOn(i, 3, SingleLightColor::RED);
+        m_board->turnOn(i, 8, SingleLightColor::RED);
+    }
+    for(int j = 3; j < 9; j++)
+    {
+        m_board->turnOn(3, j, SingleLightColor::RED);
+        m_board->turnOn(12, j, SingleLightColor::RED);
+    }
 }
 
 void PadExerciseLayer::touchInsideAction_4(Ref *sender, cocos2d::extension::Control::EventType controlEvent)
 {
     log("Button 4");
     // Add code here
+    m_board->turnOffAll();
+    for(int j = 3; j < 9; j++)
+    {
+        for(int i = 3; i < j + 1; i++)
+        {
+            m_board->turnOn(i, j, SingleLightColor::RED);
+        }
+    }
 }
 
 void PadExerciseLayer::touchInsideAction_5(Ref *sender, cocos2d::extension::Control::EventType controlEvent)
 {
     log("Button 5");
     // Add code here
+    m_board->turnOffAll();
+    for(int j = 3; j < 9; j++)
+    {
+        m_board->turnOn(7 + (j - 3), j, SingleLightColor::RED);
+        m_board->turnOn(7 - (j - 3), j, SingleLightColor::RED);
+    }
+    for(int i = 2; i < 13; i++)
+    {
+        m_board->turnOn(i, 8, SingleLightColor::RED);
+    }
 }
 
 void PadExerciseLayer::touchInsideAction_6(Ref *sender, cocos2d::extension::Control::EventType controlEvent)
