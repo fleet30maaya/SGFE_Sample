@@ -40,6 +40,14 @@ bool Exercise_2_2_Layer::init()
         auto wheel_5 = Sprite::create("exercises/wheel_inner.png");
         wheel_5->setPosition(Point(200, size.height - 550));
         addChild(wheel_5);
+        wheel_5->runAction(RepeatForever::create(Sequence::create(Spawn::create(MoveBy::create(5.0f, Point(600, 0)),
+                                                                                RotateBy::create(5.0f, 1080),
+                                                                                NULL),
+                                                                  Spawn::create(MoveBy::create(5.0f, Point(-600, 0)),
+                                                                                RotateBy::create(5.0f, -1080),
+                                                                                NULL),
+                                                                  NULL)));
+        
         
         return true;
     }
