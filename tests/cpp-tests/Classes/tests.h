@@ -3,5 +3,6 @@
 
 #include "Homework_1/HomeworkScene_1.h"
 #include "Experiment_1/Experiment_1.h"
+#include "Exercise_2/ExerciseScene_2.h"
 
 #endif
