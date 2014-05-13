@@ -162,12 +162,27 @@ void LogicTestLayer::touchInsideAction_3(Ref *sender, Control::EventType control
 
 int LogicTestLayer::getEvenSumTo(int n)
 {
-    return n;
+    int sum = 0;
+    for(int i = 1; i <= n; i++)
+    {
+        if(i % 2 == 0)
+        {
+            sum = sum + i;
+        }
+    }
+
+    return sum;
 }
 
 int LogicTestLayer::getFactorialTo(int n)
 {
-    return n;
+    int a = 1;
+    for(int i = 1; i <= n; i++)
+    {
+        a = a * i;
+    }
+    
+    return a;
 }
 
 ////////////////////////////////////////////////////////
