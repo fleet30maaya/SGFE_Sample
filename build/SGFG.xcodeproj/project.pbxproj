@@ -70,6 +70,12 @@
 		00B4A5B3190E5D86005B3EEA /* LightBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B4A5AA190E5D86005B3EEA /* LightBoard.cpp */; };
 		00BBBFBE190EBC580071E0C8 /* Experiment_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00BBBFBC190EBC580071E0C8 /* Experiment_1.cpp */; };
 		00BBBFBF190EBC580071E0C8 /* Experiment_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00BBBFBC190EBC580071E0C8 /* Experiment_1.cpp */; };
+		00BF354919221932004C8785 /* Homework_2_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00BF354319221932004C8785 /* Homework_2_1.cpp */; };
+		00BF354A19221932004C8785 /* Homework_2_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00BF354319221932004C8785 /* Homework_2_1.cpp */; };
+		00BF354B19221932004C8785 /* Homework_2_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00BF354519221932004C8785 /* Homework_2_2.cpp */; };
+		00BF354C19221932004C8785 /* Homework_2_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00BF354519221932004C8785 /* Homework_2_2.cpp */; };
+		00BF354D19221932004C8785 /* HomeworkScene_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00BF354719221932004C8785 /* HomeworkScene_2.cpp */; };
+		00BF354E19221932004C8785 /* HomeworkScene_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00BF354719221932004C8785 /* HomeworkScene_2.cpp */; };
 		00C02589190DD28500A7D3D4 /* pad in Resources */ = {isa = PBXBuildFile; fileRef = 00C02588190DD28500A7D3D4 /* pad */; };
 		00C0258A190DD28500A7D3D4 /* pad in Resources */ = {isa = PBXBuildFile; fileRef = 00C02588190DD28500A7D3D4 /* pad */; };
 		00C0258B190DD28500A7D3D4 /* pad in Resources */ = {isa = PBXBuildFile; fileRef = 00C02588190DD28500A7D3D4 /* pad */; };
@@ -781,6 +787,12 @@
 		00B4A5AB190E5D86005B3EEA /* LightBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LightBoard.h; path = View/LightBoard.h; sourceTree = "<group>"; };
 		00BBBFBC190EBC580071E0C8 /* Experiment_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Experiment_1.cpp; path = Experiment_1/Experiment_1.cpp; sourceTree = "<group>"; };
 		00BBBFBD190EBC580071E0C8 /* Experiment_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Experiment_1.h; path = Experiment_1/Experiment_1.h; sourceTree = "<group>"; };
+		00BF354319221932004C8785 /* Homework_2_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Homework_2_1.cpp; sourceTree = "<group>"; };
+		00BF354419221932004C8785 /* Homework_2_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Homework_2_1.h; sourceTree = "<group>"; };
+		00BF354519221932004C8785 /* Homework_2_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Homework_2_2.cpp; sourceTree = "<group>"; };
+		00BF354619221932004C8785 /* Homework_2_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Homework_2_2.h; sourceTree = "<group>"; };
+		00BF354719221932004C8785 /* HomeworkScene_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HomeworkScene_2.cpp; sourceTree = "<group>"; };
+		00BF354819221932004C8785 /* HomeworkScene_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkScene_2.h; sourceTree = "<group>"; };
 		00C02588190DD28500A7D3D4 /* pad */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pad; path = "../tests/cpp-tests/Resources/pad"; sourceTree = "<group>"; };
 		00DD19081920DE7200FF895A /* ExerciseScene_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExerciseScene_2.cpp; sourceTree = "<group>"; };
 		00DD19091920DE7200FF895A /* ExerciseScene_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseScene_2.h; sourceTree = "<group>"; };
@@ -1102,6 +1114,19 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		00BF354219221932004C8785 /* Homework_2 */ = {
+			isa = PBXGroup;
+			children = (
+				00BF354319221932004C8785 /* Homework_2_1.cpp */,
+				00BF354419221932004C8785 /* Homework_2_1.h */,
+				00BF354519221932004C8785 /* Homework_2_2.cpp */,
+				00BF354619221932004C8785 /* Homework_2_2.h */,
+				00BF354719221932004C8785 /* HomeworkScene_2.cpp */,
+				00BF354819221932004C8785 /* HomeworkScene_2.h */,
+			);
+			path = Homework_2;
+			sourceTree = "<group>";
+		};
 		00C02587190D7E6800A7D3D4 /* Experiment_1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1212,6 +1237,7 @@
 			isa = PBXGroup;
 			children = (
 				000F36E4190A4CBD000245A3 /* Homework_1 */,
+				00BF354219221932004C8785 /* Homework_2 */,
 				00C02587190D7E6800A7D3D4 /* Experiment_1 */,
 				00DD19071920DE7200FF895A /* Exercise_2 */,
 				00B4A5A9190E5D38005B3EEA /* View */,
@@ -1982,17 +2008,20 @@
 				1AC35B2918CECF0C00F37B72 /* AppDelegate.cpp in Sources */,
 				00B4A5AC190E5D86005B3EEA /* LightBoard.cpp in Sources */,
 				1AC35C5118CECF0C00F37B72 /* testBasic.cpp in Sources */,
+				00BF354D19221932004C8785 /* HomeworkScene_2.cpp in Sources */,
 				00DD190A1920DE7200FF895A /* ExerciseScene_2.cpp in Sources */,
 				00AF4E37192137AA00342DFD /* Exercise_2_3.cpp in Sources */,
 				1AC35B2B18CECF0C00F37B72 /* BaseTest.cpp in Sources */,
 				1AC35C6918CECF0C00F37B72 /* VisibleRect.cpp in Sources */,
 				00B360371921C7CE004D750A /* Exercise_2_4.cpp in Sources */,
 				1AC35B5918CECF0C00F37B72 /* controller.cpp in Sources */,
+				00BF354B19221932004C8785 /* Homework_2_2.cpp in Sources */,
 				00B4A5A1190E5D32005B3EEA /* SingleLight.cpp in Sources */,
 				00AF4E311921312400342DFD /* Exercise_2_2.cpp in Sources */,
 				00BBBFBE190EBC580071E0C8 /* Experiment_1.cpp in Sources */,
 				000F36DC190A4CB9000245A3 /* HomeworkScene_1.cpp in Sources */,
 				00DD19151920E83700FF895A /* Exercise_2_1.cpp in Sources */,
+				00BF354919221932004C8785 /* Homework_2_1.cpp in Sources */,
 				1AC35CA618CECF1E00F37B72 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2003,13 +2032,16 @@
 			files = (
 				000F36E0190A4CB9000245A3 /* HomeworkScene_1.cpp in Sources */,
 				00B4A5A5190E5D32005B3EEA /* SingleLight.cpp in Sources */,
+				00BF354A19221932004C8785 /* Homework_2_1.cpp in Sources */,
 				00DD19161920E83700FF895A /* Exercise_2_1.cpp in Sources */,
 				1AC35C8718CECF1400F37B72 /* testsAppDelegate.mm in Sources */,
+				00BF354C19221932004C8785 /* Homework_2_2.cpp in Sources */,
 				00BBBFBF190EBC580071E0C8 /* Experiment_1.cpp in Sources */,
 				1AC35B2A18CECF0C00F37B72 /* AppDelegate.cpp in Sources */,
 				00B360381921C7CE004D750A /* Exercise_2_4.cpp in Sources */,
 				1AC35C5218CECF0C00F37B72 /* testBasic.cpp in Sources */,
 				00AF4E321921312400342DFD /* Exercise_2_2.cpp in Sources */,
+				00BF354E19221932004C8785 /* HomeworkScene_2.cpp in Sources */,
 				1AC35B2C18CECF0C00F37B72 /* BaseTest.cpp in Sources */,
 				1AC35C9818CECF1400F37B72 /* main.m in Sources */,
 				00DD190B1920DE7200FF895A /* ExerciseScene_2.cpp in Sources */,

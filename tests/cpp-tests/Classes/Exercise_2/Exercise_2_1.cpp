@@ -17,14 +17,13 @@ bool Exercise_2_1_Layer::init()
         addChild(helloworldSprite);
         
         // Add a label (with text "Hello world!")
-        // set position to (200, size.height - 400)
+        // set position to (200, size.height - 250)
         auto helloworldLabel = Label::createWithSystemFont("Hello world!", "", 40);
         helloworldLabel->setPosition(Point(200, size.height - 250));
         addChild(helloworldLabel);
         
         // Add a armature
-        // remove sigle resource
-        cocostudio::ArmatureDataManager::getInstance()->removeArmatureFileInfo("exercises/helloworld_armature.ExportJson");
+        // set position to (200, size.height - 500)
         // load resource directly
         cocostudio::ArmatureDataManager::getInstance()->addArmatureFileInfo("exercises/helloworld_armature.ExportJson");
         
