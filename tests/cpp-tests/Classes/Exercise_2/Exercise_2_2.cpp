@@ -34,7 +34,7 @@ bool Exercise_2_2_Layer::init()
         addChild(wheel_4);
         wheel_4->runAction(Spawn::create(MoveBy::create(5.0f, Point(600, 0)),
                                          RotateBy::create(5.0f, 1080),
-                                         NULL));
+                                         nullptr));
 
         // looped move & rotate
         auto wheel_5 = Sprite::create("exercises/wheel_inner.png");

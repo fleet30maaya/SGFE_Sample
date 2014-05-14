@@ -16,9 +16,10 @@ bool Exercise_2_1_Layer::init()
         addChild(helloworldSprite);
         
         // Add a label (with text "Hello world!")
-        // set position to (200, size.height - 400)
+        // set position to (200, size.height - 250)
         
         // Add a armature
+        // set position to (200, size.height - 500)
         
         return true;
     }
