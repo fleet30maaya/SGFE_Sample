@@ -144,6 +144,9 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\websockets\prebuilt\win32\*.*" "$(Ou
     <ClCompile Include="..\Classes\Exercise_2\Exercise_2_4.cpp" />
     <ClCompile Include="..\Classes\Experiment_1\Experiment_1.cpp" />
     <ClCompile Include="..\Classes\Homework_1\HomeworkScene_1.cpp" />
+    <ClCompile Include="..\Classes\Homework_2\HomeworkScene_2.cpp" />
+    <ClCompile Include="..\Classes\Homework_2\Homework_2_1.cpp" />
+    <ClCompile Include="..\Classes\Homework_2\Homework_2_2.cpp" />
     <ClCompile Include="..\Classes\View\LightBoard.cpp" />
     <ClCompile Include="..\Classes\View\SingleLight.cpp" />
     <ClCompile Include="..\Classes\VisibleRect.cpp" />
@@ -161,6 +164,9 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\websockets\prebuilt\win32\*.*" "$(Ou
     <ClInclude Include="..\Classes\Exercise_2\Exercise_2_4.h" />
     <ClInclude Include="..\Classes\Experiment_1\Experiment_1.h" />
     <ClInclude Include="..\Classes\Homework_1\HomeworkScene_1.h" />
+    <ClInclude Include="..\Classes\Homework_2\HomeworkScene_2.h" />
+    <ClInclude Include="..\Classes\Homework_2\Homework_2_1.h" />
+    <ClInclude Include="..\Classes\Homework_2\Homework_2_2.h" />
     <ClInclude Include="..\Classes\View\LightBoard.h" />
     <ClInclude Include="..\Classes\View\SingleLight.h" />
     <ClInclude Include="..\Classes\VisibleRect.h" />
