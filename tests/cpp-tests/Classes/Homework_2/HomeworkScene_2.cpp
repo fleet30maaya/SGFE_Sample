@@ -34,12 +34,12 @@ static Point s_tCurPos = Point::ZERO;
 struct {
 	const char *test_name;
 	std::function<void(Ref*)> callback;
-} g_exs[] = {
+} g_hws[] = {
 	{ "Homework 2.1", [](Ref* sender){ CREATE_HOMEWORK(2_1)} },
 	{ "Homework 2.2", [](Ref* sender){ CREATE_HOMEWORK(2_2)} },
 };
 
-static const int g_maxitems = sizeof(g_exs) / sizeof(g_exs[0]);
+static const int g_maxitems = sizeof(g_hws) / sizeof(g_hws[0]);
 
 
 ////////////////////////////////////////////////////////
@@ -57,7 +57,7 @@ void Homework_2MainLayer::onEnter()
     MenuItemFont::setFontSize(24);
     for (int i = 0; i < g_maxitems; ++i)
     {
-        auto pItem = MenuItemFont::create(g_exs[i].test_name, g_exs[i].callback);
+        auto pItem = MenuItemFont::create(g_hws[i].test_name, g_hws[i].callback);
         pItem->setPosition(Point(s.width / 2, s.height - (i + 2) * LINE_SPACE));
         _itmeMenu->addChild(pItem, kItemTagBasic + i);
     }
