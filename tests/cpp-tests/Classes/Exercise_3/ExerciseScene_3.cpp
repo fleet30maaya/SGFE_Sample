@@ -1,59 +1,56 @@
 //
-//  HomeworkScene_2.cpp
+//  ExerciseScene_3.cpp
 //  TestCpp
 //
-//  Created by maAya on 2014-5-13.
+//  Created by maAya on 2014-5-20.
 //
 //
 
-#include "HomeworkScene_2.h"
-#include "Homework_2_1.h"
-#include "Homework_2_2.h"
+#include "ExerciseScene_3.h"
+#include "Exercise_3_1.h"
 
 USING_NS_CC;
 USING_NS_CC_EXT;
 
-
 ////////////////////////////////////////////////////////
 //
-// Homework_2MainLayer
+// Exercise_3MainLayer
 //
 ////////////////////////////////////////////////////////
-Homework_2MainLayer::Homework_2MainLayer()
+Exercise_3MainLayer::Exercise_3MainLayer()
 {
-    g_maxitems = 2;
+    g_maxitems = 1;
     g_exs.reset(new LayerStruct[g_maxitems] {
-        { "Homework 2.1", [](Ref* sender){ CREATE_HOMEWORK(2_1)} },
-        { "Homework 2.2", [](Ref* sender){ CREATE_HOMEWORK(2_2)} },
+        { "Exercise 3.1", [](Ref* sender){ CREATE_EXERCISE(3_1)} }
     });
 }
 
-Homework_2MainLayer::~Homework_2MainLayer()
+Exercise_3MainLayer::~Exercise_3MainLayer()
 {
     g_exs.release();
 }
 
 ////////////////////////////////////////////////////////
 //
-// Homework_2BaseLayer
+// Exercise_3BaseLayer
 //
 ////////////////////////////////////////////////////////
-void Homework_2BaseLayer::backCallback(Ref* sender)
+void Exercise_3BaseLayer::backCallback(Ref* sender)
 {
     //    Director::getInstance()->enableRetinaDisplay(false);
-    auto scene = new HomeworkScene_2();
+    auto scene = new ExerciseScene_3();
     scene->runThisTest();
     scene->autorelease();
 }
 
 ////////////////////////////////////////////////////////
 //
-// HomeworkScene_2
+// ExerciseScene_3
 //
 ////////////////////////////////////////////////////////
-void HomeworkScene_2::runThisTest()
+void ExerciseScene_3::runThisTest()
 {
-    auto layer = new Homework_2MainLayer();
+    auto layer = new Exercise_3MainLayer();
     addChild(layer);
     layer->release();
     

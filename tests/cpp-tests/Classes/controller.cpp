@@ -35,6 +35,7 @@ Controller g_aTestNames[] = {
 	{ "Experiment 1", []() { return new Experiment_1(); } },
 	{ "Exercise 2", []() { return new ExerciseScene_2(); } },
 	{ "Homework 2", []() { return new HomeworkScene_2(); } },
+	{ "Exercise 3", []() { return new ExerciseScene_3(); } },
 };
 
 static int g_testCount = sizeof(g_aTestNames) / sizeof(g_aTestNames[0]);
