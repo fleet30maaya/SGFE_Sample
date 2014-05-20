@@ -11,32 +11,26 @@
 
 #include "cocos2d.h"
 #include "extensions/cocos-ext.h"
+#include "../ExerciseScene.h"
 #include "../testBasic.h"
 
-class Exercise_2MainLayer : public Layer
+class Exercise_2MainLayer : public ExerciseMainLayer
 {
 public:
-    virtual void onEnter() override;
-    
-    void onTouchesBegan(const std::vector<Touch*>& touches, Event  *event);
-    void onTouchesMoved(const std::vector<Touch*>&touches, Event  *event);
-    
-protected:
-    Point _beginPos;
-    Menu* _itmeMenu;
+    Exercise_2MainLayer();
+    ~Exercise_2MainLayer();
 };
 
-class Exercise_2BaseLayer : public Layer
+class Exercise_2BaseLayer : public ExerciseBaseLayer
 {
 public:
-    virtual void onEnter() override;
-    void backCallback(Ref* sender);
+    virtual void backCallback(Ref* sender) override;
 };
 
-class ExerciseScene_2 : public TestScene
+class ExerciseScene_2 : public ExerciseScene
 {
 public:
-    virtual void runThisTest();
+    virtual void runThisTest() override;
 };
 
 #endif /* defined(__TestCpp__ExerciseScene_2__) */

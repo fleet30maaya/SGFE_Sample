@@ -137,11 +137,14 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\websockets\prebuilt\win32\*.*" "$(Ou
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\Classes\BaseTest.cpp" />
+    <ClCompile Include="..\Classes\ExerciseScene.cpp" />
     <ClCompile Include="..\Classes\Exercise_2\ExerciseScene_2.cpp" />
     <ClCompile Include="..\Classes\Exercise_2\Exercise_2_1.cpp" />
     <ClCompile Include="..\Classes\Exercise_2\Exercise_2_2.cpp" />
     <ClCompile Include="..\Classes\Exercise_2\Exercise_2_3.cpp" />
     <ClCompile Include="..\Classes\Exercise_2\Exercise_2_4.cpp" />
+    <ClCompile Include="..\Classes\Exercise_3\ExerciseScene_3.cpp" />
+    <ClCompile Include="..\Classes\Exercise_3\Exercise_3_1.cpp" />
     <ClCompile Include="..\Classes\Experiment_1\Experiment_1.cpp" />
     <ClCompile Include="..\Classes\Homework_1\HomeworkScene_1.cpp" />
     <ClCompile Include="..\Classes\Homework_2\HomeworkScene_2.cpp" />
@@ -157,11 +160,14 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\websockets\prebuilt\win32\*.*" "$(Ou
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Classes\BaseTest.h" />
+    <ClInclude Include="..\Classes\ExerciseScene.h" />
     <ClInclude Include="..\Classes\Exercise_2\ExerciseScene_2.h" />
     <ClInclude Include="..\Classes\Exercise_2\Exercise_2_1.h" />
     <ClInclude Include="..\Classes\Exercise_2\Exercise_2_2.h" />
     <ClInclude Include="..\Classes\Exercise_2\Exercise_2_3.h" />
     <ClInclude Include="..\Classes\Exercise_2\Exercise_2_4.h" />
+    <ClInclude Include="..\Classes\Exercise_3\ExerciseScene_3.h" />
+    <ClInclude Include="..\Classes\Exercise_3\Exercise_3_1.h" />
     <ClInclude Include="..\Classes\Experiment_1\Experiment_1.h" />
     <ClInclude Include="..\Classes\Homework_1\HomeworkScene_1.h" />
     <ClInclude Include="..\Classes\Homework_2\HomeworkScene_2.h" />
