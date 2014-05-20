@@ -20,15 +20,16 @@ USING_NS_CC_EXT;
 // Exercise_2MainLayer
 //
 ////////////////////////////////////////////////////////
+LayerStruct item2[] = {
+    { "Exercise 2.1", [](Ref* sender){ CREATE_EXERCISE(2_1)} },
+    { "Exercise 2.2", [](Ref* sender){ CREATE_EXERCISE(2_2)} },
+    { "Exercise 2.3", [](Ref* sender){ CREATE_EXERCISE(2_3)} },
+    { "Exercise 2.4", [](Ref* sender){ CREATE_EXERCISE(2_4)} }
+};
 Exercise_2MainLayer::Exercise_2MainLayer()
 {
-    g_maxitems = 4;
-    g_exs.reset(new LayerStruct[g_maxitems] {
-        { "Exercise 2.1", [](Ref* sender){ CREATE_EXERCISE(2_1)} },
-        { "Exercise 2.2", [](Ref* sender){ CREATE_EXERCISE(2_2)} },
-        { "Exercise 2.3", [](Ref* sender){ CREATE_EXERCISE(2_3)} },
-        { "Exercise 2.4", [](Ref* sender){ CREATE_EXERCISE(2_4)} }
-    });
+    g_exs.reset(item2);
+	g_maxitems = sizeof(item2) / sizeof(LayerStruct);
 }
 
 Exercise_2MainLayer::~Exercise_2MainLayer()

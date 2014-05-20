@@ -22,6 +22,9 @@
     <Filter Include="Classes\Homework_2">
       <UniqueIdentifier>{c71e3fc5-31e1-43db-9698-158b6b48d0a7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Exercise_3">
+      <UniqueIdentifier>{4dabb2ae-c02e-46fd-9b84-92d492e26581}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -77,6 +80,15 @@
     </ClCompile>
     <ClCompile Include="..\Classes\Homework_2\HomeworkScene_2.cpp">
       <Filter>Classes\Homework_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Exercise_3\Exercise_3_1.cpp">
+      <Filter>Classes\Exercise_3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Exercise_3\ExerciseScene_3.cpp">
+      <Filter>Classes\Exercise_3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ExerciseScene.cpp">
+      <Filter>Classes</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -139,6 +151,15 @@
     </ClInclude>
     <ClInclude Include="..\Classes\Homework_2\HomeworkScene_2.h">
       <Filter>Classes\Homework_2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Exercise_3\Exercise_3_1.h">
+      <Filter>Classes\Exercise_3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Exercise_3\ExerciseScene_3.h">
+      <Filter>Classes\Exercise_3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ExerciseScene.h">
+      <Filter>Classes</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

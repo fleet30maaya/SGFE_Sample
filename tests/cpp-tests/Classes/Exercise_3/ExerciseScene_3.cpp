@@ -17,12 +17,13 @@ USING_NS_CC_EXT;
 // Exercise_3MainLayer
 //
 ////////////////////////////////////////////////////////
+LayerStruct item3[] = {
+    { "Exercise 3.1", [](Ref* sender){ CREATE_EXERCISE(3_1)} }
+};
 Exercise_3MainLayer::Exercise_3MainLayer()
 {
-    g_maxitems = 1;
-    g_exs.reset(new LayerStruct[g_maxitems] {
-        { "Exercise 3.1", [](Ref* sender){ CREATE_EXERCISE(3_1)} }
-    });
+    g_exs.reset(item3);
+	g_maxitems = sizeof(item3) / sizeof(LayerStruct);
 }
 
 Exercise_3MainLayer::~Exercise_3MainLayer()

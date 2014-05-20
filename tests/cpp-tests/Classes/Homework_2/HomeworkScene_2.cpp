@@ -19,13 +19,14 @@ USING_NS_CC_EXT;
 // Homework_2MainLayer
 //
 ////////////////////////////////////////////////////////
+LayerStruct item_h2[] = {
+    { "Homework 2.1", [](Ref* sender){ CREATE_HOMEWORK(2_1)} },
+    { "Homework 2.2", [](Ref* sender){ CREATE_HOMEWORK(2_2)} },
+};
 Homework_2MainLayer::Homework_2MainLayer()
 {
-    g_maxitems = 2;
-    g_exs.reset(new LayerStruct[g_maxitems] {
-        { "Homework 2.1", [](Ref* sender){ CREATE_HOMEWORK(2_1)} },
-        { "Homework 2.2", [](Ref* sender){ CREATE_HOMEWORK(2_2)} },
-    });
+    g_exs.reset(item_h2);
+	g_maxitems = sizeof(item_h2) / sizeof(LayerStruct);
 }
 
 Homework_2MainLayer::~Homework_2MainLayer()
