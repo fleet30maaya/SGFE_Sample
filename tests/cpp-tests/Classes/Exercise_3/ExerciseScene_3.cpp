@@ -8,6 +8,7 @@
 
 #include "ExerciseScene_3.h"
 #include "Exercise_3_1.h"
+#include "Exercise_3_2.h"
 
 USING_NS_CC;
 USING_NS_CC_EXT;
@@ -18,7 +19,8 @@ USING_NS_CC_EXT;
 //
 ////////////////////////////////////////////////////////
 LayerStruct item3[] = {
-    { "Exercise 3.1", [](Ref* sender){ CREATE_EXERCISE(3_1)} }
+    { "Exercise 3.1", [](Ref* sender){ CREATE_EXERCISE(3_1)} },
+    { "Exercise 3.2", [](Ref* sender){ CREATE_EXERCISE(3_2)} },
 };
 Exercise_3MainLayer::Exercise_3MainLayer()
 {

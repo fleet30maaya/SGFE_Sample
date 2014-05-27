@@ -52,6 +52,9 @@
 		000F36E1190A4CB9000245A3 /* HomeworkScene_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 000F36DA190A4CB9000245A3 /* HomeworkScene_1.cpp */; };
 		000F36E2190A4CB9000245A3 /* HomeworkScene_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 000F36DA190A4CB9000245A3 /* HomeworkScene_1.cpp */; };
 		000F36E3190A4CB9000245A3 /* HomeworkScene_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 000F36DA190A4CB9000245A3 /* HomeworkScene_1.cpp */; };
+		00270FF61932BF9C00844BE2 /* CommonTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00270FF41932BF9C00844BE2 /* CommonTools.cpp */; };
+		003101791934E589000E06F6 /* Exercise_3_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 003101771934E589000E06F6 /* Exercise_3_2.cpp */; };
+		0031017A1934E589000E06F6 /* Exercise_3_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 003101771934E589000E06F6 /* Exercise_3_2.cpp */; };
 		00AF4E311921312400342DFD /* Exercise_2_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AF4E2F1921312400342DFD /* Exercise_2_2.cpp */; };
 		00AF4E321921312400342DFD /* Exercise_2_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AF4E2F1921312400342DFD /* Exercise_2_2.cpp */; };
 		00AF4E37192137AA00342DFD /* Exercise_2_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AF4E35192137A900342DFD /* Exercise_2_3.cpp */; };
@@ -787,6 +790,10 @@
 		000210F8192A835800569DAE /* ExerciseScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseScene.h; sourceTree = "<group>"; };
 		000F36DA190A4CB9000245A3 /* HomeworkScene_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HomeworkScene_1.cpp; path = Homework_1/HomeworkScene_1.cpp; sourceTree = "<group>"; };
 		000F36DB190A4CB9000245A3 /* HomeworkScene_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeworkScene_1.h; path = Homework_1/HomeworkScene_1.h; sourceTree = "<group>"; };
+		00270FF41932BF9C00844BE2 /* CommonTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommonTools.cpp; sourceTree = "<group>"; };
+		00270FF51932BF9C00844BE2 /* CommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTools.h; sourceTree = "<group>"; };
+		003101771934E589000E06F6 /* Exercise_3_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exercise_3_2.cpp; sourceTree = "<group>"; };
+		003101781934E589000E06F6 /* Exercise_3_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise_3_2.h; sourceTree = "<group>"; };
 		00AF4E2F1921312400342DFD /* Exercise_2_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exercise_2_2.cpp; sourceTree = "<group>"; };
 		00AF4E301921312400342DFD /* Exercise_2_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise_2_2.h; sourceTree = "<group>"; };
 		00AF4E35192137A900342DFD /* Exercise_2_3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exercise_2_3.cpp; sourceTree = "<group>"; };
@@ -1111,6 +1118,8 @@
 			children = (
 				000210D8192A61B700569DAE /* Exercise_3_1.cpp */,
 				000210D9192A61B700569DAE /* Exercise_3_1.h */,
+				003101771934E589000E06F6 /* Exercise_3_2.cpp */,
+				003101781934E589000E06F6 /* Exercise_3_2.h */,
 				000210E0192A61B700569DAE /* ExerciseScene_3.cpp */,
 				000210E1192A61B700569DAE /* ExerciseScene_3.h */,
 			);
@@ -1279,6 +1288,8 @@
 				1AC35AFA18CECF0C00F37B72 /* tests.h */,
 				1AC35B1A18CECF0C00F37B72 /* VisibleRect.cpp */,
 				1AC35B1B18CECF0C00F37B72 /* VisibleRect.h */,
+				00270FF41932BF9C00844BE2 /* CommonTools.cpp */,
+				00270FF51932BF9C00844BE2 /* CommonTools.h */,
 			);
 			name = Classes;
 			path = "../tests/cpp-tests/Classes";
@@ -2037,6 +2048,7 @@
 				00B4A5AC190E5D86005B3EEA /* LightBoard.cpp in Sources */,
 				1AC35C5118CECF0C00F37B72 /* testBasic.cpp in Sources */,
 				00BF354D19221932004C8785 /* HomeworkScene_2.cpp in Sources */,
+				00270FF61932BF9C00844BE2 /* CommonTools.cpp in Sources */,
 				00DD190A1920DE7200FF895A /* ExerciseScene_2.cpp in Sources */,
 				00AF4E37192137AA00342DFD /* Exercise_2_3.cpp in Sources */,
 				1AC35B2B18CECF0C00F37B72 /* BaseTest.cpp in Sources */,
@@ -2049,6 +2061,7 @@
 				00AF4E311921312400342DFD /* Exercise_2_2.cpp in Sources */,
 				00BBBFBE190EBC580071E0C8 /* Experiment_1.cpp in Sources */,
 				000F36DC190A4CB9000245A3 /* HomeworkScene_1.cpp in Sources */,
+				003101791934E589000E06F6 /* Exercise_3_2.cpp in Sources */,
 				00DD19151920E83700FF895A /* Exercise_2_1.cpp in Sources */,
 				00BF354919221932004C8785 /* Homework_2_1.cpp in Sources */,
 				1AC35CA618CECF1E00F37B72 /* main.cpp in Sources */,
@@ -2063,6 +2076,7 @@
 				00B4A5A5190E5D32005B3EEA /* SingleLight.cpp in Sources */,
 				00BF354A19221932004C8785 /* Homework_2_1.cpp in Sources */,
 				00DD19161920E83700FF895A /* Exercise_2_1.cpp in Sources */,
+				0031017A1934E589000E06F6 /* Exercise_3_2.cpp in Sources */,
 				1AC35C8718CECF1400F37B72 /* testsAppDelegate.mm in Sources */,
 				00BF354C19221932004C8785 /* Homework_2_2.cpp in Sources */,
 				00BBBFBF190EBC580071E0C8 /* Experiment_1.cpp in Sources */,
