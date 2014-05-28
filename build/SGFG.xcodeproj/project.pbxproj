@@ -99,6 +99,22 @@
 		00DD19101920E00100FF895A /* exercises in Resources */ = {isa = PBXBuildFile; fileRef = 00DD190E1920E00100FF895A /* exercises */; };
 		00DD19151920E83700FF895A /* Exercise_2_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00DD19131920E83700FF895A /* Exercise_2_1.cpp */; };
 		00DD19161920E83700FF895A /* Exercise_2_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00DD19131920E83700FF895A /* Exercise_2_1.cpp */; };
+		00E75E5C193574040055A518 /* InGameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00E75E5A193574040055A518 /* InGameScene.cpp */; };
+		00E75E5D193574040055A518 /* InGameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00E75E5A193574040055A518 /* InGameScene.cpp */; };
+		00E75E6D1935AD880055A518 /* projectTH in Resources */ = {isa = PBXBuildFile; fileRef = 00E75E6C1935AD880055A518 /* projectTH */; };
+		00E75E6E1935AD880055A518 /* projectTH in Resources */ = {isa = PBXBuildFile; fileRef = 00E75E6C1935AD880055A518 /* projectTH */; };
+		00E75E711935AF160055A518 /* BackgroundLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00E75E6F1935AF160055A518 /* BackgroundLayer.cpp */; };
+		00E75E721935AF160055A518 /* BackgroundLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00E75E6F1935AF160055A518 /* BackgroundLayer.cpp */; };
+		00F1F9001935D72A00B28361 /* HUDLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00F1F8FE1935D72A00B28361 /* HUDLayer.cpp */; };
+		00F1F9011935D72A00B28361 /* HUDLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00F1F8FE1935D72A00B28361 /* HUDLayer.cpp */; };
+		00F1F9061935DCA700B28361 /* BattlefieldLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00F1F9041935DCA700B28361 /* BattlefieldLayer.cpp */; };
+		00F1F9071935DCA700B28361 /* BattlefieldLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00F1F9041935DCA700B28361 /* BattlefieldLayer.cpp */; };
+		00F1F90A1935ECD600B28361 /* Aircraft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00F1F9081935ECD600B28361 /* Aircraft.cpp */; };
+		00F1F90B1935ECD600B28361 /* Aircraft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00F1F9081935ECD600B28361 /* Aircraft.cpp */; };
+		00F1F90E1935F9DD00B28361 /* Bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00F1F90C1935F9DD00B28361 /* Bullet.cpp */; };
+		00F1F90F1935F9DD00B28361 /* Bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00F1F90C1935F9DD00B28361 /* Bullet.cpp */; };
+		00F1F912193606BC00B28361 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00F1F910193606BC00B28361 /* Enemy.cpp */; };
+		00F1F913193606BC00B28361 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00F1F910193606BC00B28361 /* Enemy.cpp */; };
 		1503FAB318DA8B6C00F6518C /* ftp.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1503FAA918DA8B6C00F6518C /* ftp.lua */; };
 		1503FAB418DA8B6C00F6518C /* ftp.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1503FAA918DA8B6C00F6518C /* ftp.lua */; };
 		1503FAB518DA8B6C00F6518C /* headers.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1503FAAA18DA8B6C00F6518C /* headers.lua */; };
@@ -818,6 +834,21 @@
 		00DD190E1920E00100FF895A /* exercises */ = {isa = PBXFileReference; lastKnownFileType = folder; name = exercises; path = "../tests/cpp-tests/Resources/exercises"; sourceTree = "<group>"; };
 		00DD19131920E83700FF895A /* Exercise_2_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exercise_2_1.cpp; sourceTree = "<group>"; };
 		00DD19141920E83700FF895A /* Exercise_2_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise_2_1.h; sourceTree = "<group>"; };
+		00E75E5A193574040055A518 /* InGameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InGameScene.cpp; sourceTree = "<group>"; };
+		00E75E5B193574040055A518 /* InGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InGameScene.h; sourceTree = "<group>"; };
+		00E75E6C1935AD880055A518 /* projectTH */ = {isa = PBXFileReference; lastKnownFileType = folder; name = projectTH; path = "../tests/cpp-tests/Resources/projectTH"; sourceTree = "<group>"; };
+		00E75E6F1935AF160055A518 /* BackgroundLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BackgroundLayer.cpp; sourceTree = "<group>"; };
+		00E75E701935AF160055A518 /* BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLayer.h; sourceTree = "<group>"; };
+		00F1F8FE1935D72A00B28361 /* HUDLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HUDLayer.cpp; sourceTree = "<group>"; };
+		00F1F8FF1935D72A00B28361 /* HUDLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDLayer.h; sourceTree = "<group>"; };
+		00F1F9041935DCA700B28361 /* BattlefieldLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BattlefieldLayer.cpp; sourceTree = "<group>"; };
+		00F1F9051935DCA700B28361 /* BattleFieldLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleFieldLayer.h; sourceTree = "<group>"; };
+		00F1F9081935ECD600B28361 /* Aircraft.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Aircraft.cpp; sourceTree = "<group>"; };
+		00F1F9091935ECD600B28361 /* Aircraft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aircraft.h; sourceTree = "<group>"; };
+		00F1F90C1935F9DD00B28361 /* Bullet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bullet.cpp; sourceTree = "<group>"; };
+		00F1F90D1935F9DD00B28361 /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
+		00F1F910193606BC00B28361 /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
+		00F1F911193606BC00B28361 /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
 		1503FAA918DA8B6C00F6518C /* ftp.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ftp.lua; path = ../external/lua/luasocket/ftp.lua; sourceTree = "<group>"; };
 		1503FAAA18DA8B6C00F6518C /* headers.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = headers.lua; path = ../external/lua/luasocket/headers.lua; sourceTree = "<group>"; };
 		1503FAAB18DA8B6C00F6518C /* http.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = http.lua; path = ../external/lua/luasocket/http.lua; sourceTree = "<group>"; };
@@ -1185,6 +1216,27 @@
 			path = Exercise_2;
 			sourceTree = "<group>";
 		};
+		00E75E59193574040055A518 /* ProjectTH */ = {
+			isa = PBXGroup;
+			children = (
+				00F1F9081935ECD600B28361 /* Aircraft.cpp */,
+				00F1F9091935ECD600B28361 /* Aircraft.h */,
+				00F1F910193606BC00B28361 /* Enemy.cpp */,
+				00F1F911193606BC00B28361 /* Enemy.h */,
+				00F1F90C1935F9DD00B28361 /* Bullet.cpp */,
+				00F1F90D1935F9DD00B28361 /* Bullet.h */,
+				00E75E6F1935AF160055A518 /* BackgroundLayer.cpp */,
+				00E75E701935AF160055A518 /* BackgroundLayer.h */,
+				00F1F9041935DCA700B28361 /* BattlefieldLayer.cpp */,
+				00F1F9051935DCA700B28361 /* BattleFieldLayer.h */,
+				00F1F8FE1935D72A00B28361 /* HUDLayer.cpp */,
+				00F1F8FF1935D72A00B28361 /* HUDLayer.h */,
+				00E75E5A193574040055A518 /* InGameScene.cpp */,
+				00E75E5B193574040055A518 /* InGameScene.h */,
+			);
+			path = ProjectTH;
+			sourceTree = "<group>";
+		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -1274,6 +1326,7 @@
 				00DD19071920DE7200FF895A /* Exercise_2 */,
 				000210D7192A61B700569DAE /* Exercise_3 */,
 				00B4A5A9190E5D38005B3EEA /* View */,
+				00E75E59193574040055A518 /* ProjectTH */,
 				1AC3593418CECF0A00F37B72 /* AppDelegate.cpp */,
 				1AC3593518CECF0A00F37B72 /* AppDelegate.h */,
 				1AC3593618CECF0A00F37B72 /* BaseTest.cpp */,
@@ -1354,6 +1407,7 @@
 				1AC35CB818CED84500F37B72 /* extensions */,
 				1AC35CBA18CED84500F37B72 /* fonts */,
 				00C02588190DD28500A7D3D4 /* pad */,
+				00E75E6C1935AD880055A518 /* projectTH */,
 				1AC35CB918CED84500F37B72 /* fileLookup.plist */,
 				1AC35CBB18CED84500F37B72 /* fps_images.png */,
 				1AC35CB218CED84500F37B72 /* commonly_used_words.txt */,
@@ -1938,6 +1992,7 @@
 				1AC35CEC18CED84500F37B72 /* fonts in Resources */,
 				1AC35CEA18CED84500F37B72 /* fileLookup.plist in Resources */,
 				1AC35CA318CECF1E00F37B72 /* InfoPlist.strings in Resources */,
+				00E75E6D1935AD880055A518 /* projectTH in Resources */,
 				1AC35CEE18CED84500F37B72 /* fps_images.png in Resources */,
 				1AC35CA418CECF1E00F37B72 /* MainMenu.xib in Resources */,
 				00DD190F1920E00100FF895A /* exercises in Resources */,
@@ -1966,6 +2021,7 @@
 				1AC35C8F18CECF1400F37B72 /* Icon-152.png in Resources */,
 				1AC35C9718CECF1400F37B72 /* Icon-80.png in Resources */,
 				1AC35CEB18CED84500F37B72 /* fileLookup.plist in Resources */,
+				00E75E6E1935AD880055A518 /* projectTH in Resources */,
 				1AC35C8D18CECF1400F37B72 /* Icon-120.png in Resources */,
 				1AC35C9418CECF1400F37B72 /* Icon-58.png in Resources */,
 				1AC35CED18CED84500F37B72 /* fonts in Resources */,
@@ -2044,7 +2100,9 @@
 			files = (
 				1AC35B2918CECF0C00F37B72 /* AppDelegate.cpp in Sources */,
 				000210E2192A61B700569DAE /* Exercise_3_1.cpp in Sources */,
+				00F1F9061935DCA700B28361 /* BattlefieldLayer.cpp in Sources */,
 				000210F9192A835800569DAE /* ExerciseScene.cpp in Sources */,
+				00F1F9001935D72A00B28361 /* HUDLayer.cpp in Sources */,
 				00B4A5AC190E5D86005B3EEA /* LightBoard.cpp in Sources */,
 				1AC35C5118CECF0C00F37B72 /* testBasic.cpp in Sources */,
 				00BF354D19221932004C8785 /* HomeworkScene_2.cpp in Sources */,
@@ -2052,8 +2110,11 @@
 				00DD190A1920DE7200FF895A /* ExerciseScene_2.cpp in Sources */,
 				00AF4E37192137AA00342DFD /* Exercise_2_3.cpp in Sources */,
 				1AC35B2B18CECF0C00F37B72 /* BaseTest.cpp in Sources */,
+				00F1F912193606BC00B28361 /* Enemy.cpp in Sources */,
 				000210EA192A61B700569DAE /* ExerciseScene_3.cpp in Sources */,
+				00F1F90A1935ECD600B28361 /* Aircraft.cpp in Sources */,
 				1AC35C6918CECF0C00F37B72 /* VisibleRect.cpp in Sources */,
+				00E75E711935AF160055A518 /* BackgroundLayer.cpp in Sources */,
 				00B360371921C7CE004D750A /* Exercise_2_4.cpp in Sources */,
 				1AC35B5918CECF0C00F37B72 /* controller.cpp in Sources */,
 				00BF354B19221932004C8785 /* Homework_2_2.cpp in Sources */,
@@ -2064,7 +2125,9 @@
 				003101791934E589000E06F6 /* Exercise_3_2.cpp in Sources */,
 				00DD19151920E83700FF895A /* Exercise_2_1.cpp in Sources */,
 				00BF354919221932004C8785 /* Homework_2_1.cpp in Sources */,
+				00F1F90E1935F9DD00B28361 /* Bullet.cpp in Sources */,
 				1AC35CA618CECF1E00F37B72 /* main.cpp in Sources */,
+				00E75E5C193574040055A518 /* InGameScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2074,16 +2137,21 @@
 			files = (
 				000F36E0190A4CB9000245A3 /* HomeworkScene_1.cpp in Sources */,
 				00B4A5A5190E5D32005B3EEA /* SingleLight.cpp in Sources */,
+				00F1F9011935D72A00B28361 /* HUDLayer.cpp in Sources */,
 				00BF354A19221932004C8785 /* Homework_2_1.cpp in Sources */,
 				00DD19161920E83700FF895A /* Exercise_2_1.cpp in Sources */,
 				0031017A1934E589000E06F6 /* Exercise_3_2.cpp in Sources */,
+				00F1F9071935DCA700B28361 /* BattlefieldLayer.cpp in Sources */,
+				00E75E721935AF160055A518 /* BackgroundLayer.cpp in Sources */,
 				1AC35C8718CECF1400F37B72 /* testsAppDelegate.mm in Sources */,
 				00BF354C19221932004C8785 /* Homework_2_2.cpp in Sources */,
 				00BBBFBF190EBC580071E0C8 /* Experiment_1.cpp in Sources */,
 				000210FA192A835800569DAE /* ExerciseScene.cpp in Sources */,
+				00E75E5D193574040055A518 /* InGameScene.cpp in Sources */,
 				1AC35B2A18CECF0C00F37B72 /* AppDelegate.cpp in Sources */,
 				00B360381921C7CE004D750A /* Exercise_2_4.cpp in Sources */,
 				1AC35C5218CECF0C00F37B72 /* testBasic.cpp in Sources */,
+				00F1F913193606BC00B28361 /* Enemy.cpp in Sources */,
 				00AF4E321921312400342DFD /* Exercise_2_2.cpp in Sources */,
 				00BF354E19221932004C8785 /* HomeworkScene_2.cpp in Sources */,
 				1AC35B2C18CECF0C00F37B72 /* BaseTest.cpp in Sources */,
@@ -2093,7 +2161,9 @@
 				1AC35C8618CECF1400F37B72 /* RootViewController.mm in Sources */,
 				000210E3192A61B700569DAE /* Exercise_3_1.cpp in Sources */,
 				00AF4E38192137AA00342DFD /* Exercise_2_3.cpp in Sources */,
+				00F1F90F1935F9DD00B28361 /* Bullet.cpp in Sources */,
 				1AC35C6A18CECF0C00F37B72 /* VisibleRect.cpp in Sources */,
+				00F1F90B1935ECD600B28361 /* Aircraft.cpp in Sources */,
 				1AC35B5A18CECF0C00F37B72 /* controller.cpp in Sources */,
 				00B4A5B0190E5D86005B3EEA /* LightBoard.cpp in Sources */,
 			);
