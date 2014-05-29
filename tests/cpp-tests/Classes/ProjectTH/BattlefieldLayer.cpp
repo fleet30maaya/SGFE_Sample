@@ -13,8 +13,10 @@
 #include "../VisibleRect.h"
 #include "Aircraft.h"
 #include "Enemy.h"
+#include "SimpleAudioEngine.h"
 
 USING_NS_CC;
+using namespace CocosDenshion;
 
 enum {
     TAG_FLIGHT,
@@ -111,6 +113,8 @@ Vector<Enemy*>& BattleFieldLayer::getEnemy()
 
 void BattleFieldLayer::doBoom(Point pos)
 {
+    SimpleAudioEngine::getInstance()->playEffect("projectTH/boom.mp3");
+
     auto cache = SpriteFrameCache::getInstance();
     auto spritebatch = this->getChildByTag(TAG_BOOM_BATCH);
     
@@ -129,9 +133,11 @@ void BattleFieldLayer::doBoom(Point pos)
     }
     
     auto animation = Animation::createWithSpriteFrames(animFrames, 0.03f);
-    _sprite1->runAction(Sequence::create(Animate::create(animation),
-                                         RemoveSelf::create(),
-                                         NULL));
+    _sprite1->runAction(Spawn::create(ScaleTo::create(0.6f, 1.2f),
+                                      Sequence::create(Animate::create(animation),
+                                                       RemoveSelf::create(),
+                                                       NULL),
+                                      NULL));
     _sprite1->setRotation(360 * (float)rand() / (float)RAND_MAX);
 }
 

@@ -12,8 +12,10 @@
 #include "cocostudio/CocoStudio.h"
 #include "../controller.h"
 #include "../VisibleRect.h"
+#include "SimpleAudioEngine.h"
 
 USING_NS_CC;
+using namespace CocosDenshion;
 
 bool Aircraft::init()
 {
@@ -40,6 +42,11 @@ void Aircraft::update(float delta)
     {
         if(m_fireCD == 0)
         {
+            if(m_fireSoundCD == 0)
+            {
+                SimpleAudioEngine::getInstance()->playEffect("projectTH/bullet.mp3");
+            }
+            m_fireSoundCD = (m_fireSoundCD + 1) % 3;
             for(int i = 0; i < 5; i++)
             {
                 auto bullet = Bullet::create();
@@ -59,11 +66,13 @@ void Aircraft::fireOn()
 {
     m_fireOn = true;
     m_fireCD = 0;
+    m_fireSoundCD = 0;
 }
 
 void Aircraft::fireOff()
 {
     m_fireOn = false;
     m_fireCD = 0;
+    m_fireSoundCD = 0;
 }
 

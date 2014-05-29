@@ -50,8 +50,6 @@ void Enemy::update(float delta)
 {
     if(!isAlive())
     {
-        ((BattleFieldLayer*)this->getParent())->doBoom(Point(this->getPosition().x, this->getPosition().y - 50));
-
         ((BattleFieldLayer*)this->getParent())->getEnemy().eraseObject(this);
         this->removeFromParent();
 
@@ -72,7 +70,10 @@ void Enemy::damage(float damage)
     
     m_hp -= damage;
     if(m_hp <= 0.0f)
+    {
         m_life = 0;
+        ((BattleFieldLayer*)this->getParent())->doBoom(Point(this->getPosition().x, this->getPosition().y - 50));
+    }
 }
 
 bool Enemy::isAlive()

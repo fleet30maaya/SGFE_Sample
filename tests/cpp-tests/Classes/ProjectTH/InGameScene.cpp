@@ -56,6 +56,8 @@ void InGameScene::onEnter()
     addChild(menu, 1);
     
     SimpleAudioEngine::getInstance()->preloadBackgroundMusic("projectTH/Pilot.mp3");
+    SimpleAudioEngine::getInstance()->preloadEffect("projectTH/bullet.mp3");
+    SimpleAudioEngine::getInstance()->preloadEffect("projectTH/boom.mp3");
 }
 
 void InGameScene::runThisTest()

@@ -27,6 +27,7 @@ public:
 protected:
     bool m_fireOn;
     int  m_fireCD;
+    int  m_fireSoundCD;
 };
 
 #endif /* defined(__ProjectTH__Aircraft__) */
