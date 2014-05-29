@@ -27,6 +27,12 @@ bool Aircraft::init()
         flight->setScale(0.3f);
         this->addChild(flight);
 
+        auto particle = ParticleSystemQuad::create("projectTH/core_par.plist");
+        particle->setPosition(Point(0,-7));
+        particle->setPositionType(tPositionType::GROUPED);
+        //        particle->setScale(0.3f);
+        this->addChild(particle);
+        
         m_fireOn = false;
         
         this->scheduleUpdate();
