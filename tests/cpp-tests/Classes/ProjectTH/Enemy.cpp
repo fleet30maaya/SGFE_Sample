@@ -72,7 +72,7 @@ void Enemy::damage(float damage)
     if(m_hp <= 0.0f)
     {
         m_life = 0;
-        ((BattleFieldLayer*)this->getParent())->doBoom(Point(this->getPosition().x, this->getPosition().y - 50));
+        ((BattleFieldLayer*)this->getParent())->doBoom(Point(this->getPosition().x, this->getPosition().y - 35));
     }
 }
 
