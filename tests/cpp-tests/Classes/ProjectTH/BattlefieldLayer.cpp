@@ -18,6 +18,7 @@ USING_NS_CC;
 
 enum {
     TAG_FLIGHT,
+    TAG_BOOM_BATCH,
 };
 
 bool BattleFieldLayer::init()
@@ -39,6 +40,12 @@ bool BattleFieldLayer::init()
         touchListener->onTouchCancelled = CC_CALLBACK_2(BattleFieldLayer::onTouchCancelled, this);
         dispatcher->addEventListenerWithSceneGraphPriority(touchListener, this);
 
+        auto cache = SpriteFrameCache::getInstance();
+        cache->addSpriteFramesWithFile("projectTH/boom.plist");
+        cache->addSpriteFramesWithFile("projectTH/boom.plist", "projectTH/boom.png");
+        auto spritebatch = SpriteBatchNode::create("projectTH/boom.png");
+        addChild(spritebatch, 0, TAG_BOOM_BATCH);
+
         this->scheduleUpdate();
         
         return true;
@@ -48,6 +55,7 @@ bool BattleFieldLayer::init()
 
 bool BattleFieldLayer::onTouchBegan(Touch* touch, Event* event)
 {
+    // ...
     Point touchPos = touch->getLocation();
     Aircraft* flight = (Aircraft*)this->getChildByTag(TAG_FLIGHT);
     m_offsetPos = Point(flight->getPosition().x - touchPos.x,
@@ -99,6 +107,32 @@ void BattleFieldLayer::update(float delta)
 Vector<Enemy*>& BattleFieldLayer::getEnemy()
 {
     return m_enemies;
+}
+
+void BattleFieldLayer::doBoom(Point pos)
+{
+    auto cache = SpriteFrameCache::getInstance();
+    auto spritebatch = this->getChildByTag(TAG_BOOM_BATCH);
+    
+    auto _sprite1 = Sprite::createWithSpriteFrameName("b_skilleffect_5_00008.png");
+    _sprite1->setPosition(pos);
+    spritebatch->addChild(_sprite1);
+    
+    Vector<SpriteFrame*> animFrames(19);
+    
+    char str[100] = {0};
+    for(int i = 8; i < 26; i++)
+    {
+        sprintf(str, "b_skilleffect_5_%05d.png", i);
+        auto frame = cache->getSpriteFrameByName( str );
+        animFrames.pushBack(frame);
+    }
+    
+    auto animation = Animation::createWithSpriteFrames(animFrames, 0.03f);
+    _sprite1->runAction(Sequence::create(Animate::create(animation),
+                                         RemoveSelf::create(),
+                                         NULL));
+    _sprite1->setRotation(360 * (float)rand() / (float)RAND_MAX);
 }
 
 

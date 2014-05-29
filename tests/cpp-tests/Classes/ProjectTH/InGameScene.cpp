@@ -75,7 +75,7 @@ void InGameScene::runThisTest()
     auto hudLayer = HUDLayer::create();
     this->addChild(hudLayer);
     
-    SimpleAudioEngine::getInstance()->playBackgroundMusic("projectTH/Pilot.mp3");
+    SimpleAudioEngine::getInstance()->playBackgroundMusic("projectTH/Pilot.mp3", true);
 }
 
 

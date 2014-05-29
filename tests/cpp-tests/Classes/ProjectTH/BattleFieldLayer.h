@@ -28,7 +28,7 @@ public:
     void onTouchCancelled(Touch* touch, Event* event);
 
     Vector<Enemy*>& getEnemy();
-    
+    void doBoom(Point pos);
 protected:
     Point m_offsetPos;
     Vector<Enemy*> m_enemies;
